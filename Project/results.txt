@@ -1,0 +1,320 @@
+Thecrashoccurswhentheuserattemptstoopentable
+907154,05/25/200915:28:28,20126,09/21/200823:21:25,769,51,howtoopenVS2005solutionusingVS
+Beforeyousaythatthiscan'tbedone,thatGoogle
+7509512,09/22/201104:19:08,168752,09/04/200919:59:34,103,1,Isthereanopensourceforumwithgmail
+4691630,01/14/201113:43:39,478144,10/16/201020:24:18,2030,131,OpenSourceequivalentofVBScript?,"Wherewouldyouuse
+Isthereawaytodisabletheprotectedmethod-
+6530530,06/30/201106:00:09,647669,03/07/201105:45:25,1,0,howtoreadajsonfilewithmulitple
+7627898,10/02/201117:12:01,498448,11/05/201014:55:05,9,0,SavedocumentwithZohoremoteapi,Iamusing
+9442326,02/25/201207:52:10,1191660,02/06/201206:12:41,11,2,E:unabletobindnetlinksocketnosucha
+9067967,01/30/201217:22:37,83905,03/28/200903:01:11,6481,419,opensourceimplementationforcontactsUIofios
+10942632,06/08/201203:13:34,1439606,06/06/201211:19:36,1,0,Howtocreateaopensource3dcharts,"i
+3950015,10/16/201017:40:10,382252,07/02/201017:08:02,111,6,Passingacursortoanactivity?,"Isthispossible?
+IhaveAccess2010installedonmymachineandeven
+I'mwritinginC#,butifthere'sabettersolution
+5195149,03/04/201114:38:48,643042,03/03/201113:21:17,1,0,Whatthebestsolutiontomanagewebproject
+4177744,11/14/201013:48:59,300713,03/24/201010:37:18,75,0,c++OSXopendefaultbrowser!,"Iwouldliketo
+IneedtoknowifthereisanyPHParticle
+1518686,10/05/200907:36:54,147685,07/30/200908:59:47,61,6,VBScriptautomaterightclick,"Iwanttoautomatesimulation
+10214280,04/18/201217:01:10,966072,09/27/201101:05:33,310,1,ifcallablethrowstimeoutexceptionjavawithstreamsopen,"I'm
+7176283,08/24/201113:32:11,883650,08/08/201108:25:12,1,0,closepopupwindowinjavascript,"Imhavinga
+10246238,04/20/201212:27:28,758906,05/18/201109:20:12,186,1,OpenSourcecodeforBipedalRobotController,"Arethere
+9914168,03/28/201219:14:08,1012663,10/25/201111:57:44,39,1,Copyright?IntellectualPropertyforWii?,"I'vemadeavariety
+Withthatinmind,I'mhavingahardtimefinding
+8590015,12/21/201112:43:41,1109856,03/17/201108:49:46,1,0,.doctoPalintextconverter,"Pleaseletmeknow
+Ionlybeginningtolearnthisareasoanyhelp
+-HowdoIcheckifaport(ora
+9365728,02/20/201217:38:02,13198,09/16/200817:36:01,13297,808,jspcompileerror,"Ihavefollowinglineina
+5041365,02/18/201112:38:09,528057,12/02/201013:53:37,1,0,HowdoIInsertLatitude/Longtitudeinmydatabase
+Myquestionis,isthereanywaytopassthe
+8691379,01/01/201201:14:40,1002509,10/19/201106:02:29,136,4,"Whatdoes""stylexyz.css""insideajavascriptfile
+7493374,09/21/201100:37:27,948072,09/16/201103:21:30,1,0,howtoretaindefaultmodefromAdministratormode
+Ifullyadmittobeingverynewandinexperiencedat
+4736109,01/19/201114:04:44,573057,01/12/201116:51:26,1,1,"VC++VisualStudioadded.hppfilesinsubdirectory
+ihavearegistrationformandwouldliketohave
+11183281,06/25/201203:48:23,150024,08/03/200922:06:47,13,0,RecommendedsolutionsforPHPbasedpatient/clientdatabaseapplications?,"Can
+7040350,08/12/201112:51:51,891797,08/12/201112:51:51,1,0,"Codesniffer,beautifierandcodingstyleforC?","I
+4334781,12/02/201012:05:15,527930,12/02/201012:05:15,1,0,Jvmgetcrashedwheniamusingjava
+wheniopendfmwithnotepad,it'spicturepropertyhave
+OrisitbesttogeneratePDFnatively,ratherthan
+8037483,11/07/201114:02:11,346417,05/20/201018:17:04,6,3,RepositioningjQueryUIAutocompleteonbrowserresize,"Thereis
+3095263,06/22/201016:47:55,341308,05/14/201014:16:13,1,0,DisplayinganMVCpageinsideawebformiFrame,Is
+NowthatI'vegottenthisfar,Igetanerror
+11413633,07/10/201212:46:29,1514762,07/10/201212:22:50,1,0,WherecanIfindopensource1dbin
+Doesanybodyknowhowtocreatearequestthattells
+9127230,02/03/201210:35:37,968408,09/28/201105:34:17,1,1,GetParameterfromaURLpostedina
+FYI:Ihaveapluginwhichcurrentlyhaveviewerwhich
+2950426,06/01/201014:06:55,336040,05/08/201007:10:19,273,62,HowopenanAESencrypted.zip?,"Cananybodyplease
+11419955,07/10/201218:52:35,1468857,06/20/201210:07:49,6,1,InternetExplorernotopeningcertainlinks,"I'musingIE
+10535477,05/10/201213:53:11,1118884,12/28/201107:36:48,15,0,"iamgettingandroidMediaPlayer:Error(1,1001)???.","
+8847965,01/13/201208:50:12,379732,06/30/201006:52:25,46,0,MySQLvsFirebirdvsSqLite,"Wewillimplementa
+butIneedmorespecificinformationslikeisreallyMySql
+5863750,05/03/201100:02:44,102371,05/06/200917:32:42,11494,510,IsthereanyopensourceprojectusingDapper
+Theidealanswerwillbethenamesofoneor
+ButfornowI'mjusttryingtoseeifthere
+5163634,03/02/201105:11:40,615960,02/14/201109:24:06,20,0,myapplicationtakeslongtimetoopenin
+9689911,03/13/201218:30:28,722822,04/24/201118:18:06,199,10,abetterwaytohandlecursorsasto
+9029695,01/27/201206:22:54,1002672,10/19/201107:56:10,6,0,HowcanIopenafileasa
+5920257,05/07/201109:38:45,683395,03/30/201106:25:04,1,0,howcanopenanimageinaimage
+5666408,04/14/201116:26:23,708343,04/14/201116:26:23,1,0,SQLServerExpress,"IdownloadedSQLserverexpressedition,but
+Theworkbookyouaretryingtosavehasthesame
+11621413,07/23/201222:21:55,524371,11/29/201021:10:06,11,1,Combineamitlicensedcomponentwithagpl
+IsthereawaythatIcanclickonthe
+Iknowitsaverybasicquestion.Butiwant
+10923861,06/06/201223:44:51,1298376,03/28/201213:58:29,13,0,Webhostedsoftwaretosharestuffbetweenneighbors,"I'mlooking
+Bothapp2.classandthehtmlfileareinthesame
+10270580,04/22/201218:00:19,1349852,04/22/201217:48:40,1,0,pythonopenHTTPorHTTPSsessionoverTCP
+IftheInputStreamapproachisnotpossible,butyouknow
+1366905,09/02/200910:29:08,124280,06/17/200911:52:04,6,1,Best.NETlibraryfortrees,"Whatisthebest
+7423189,09/14/201121:26:58,876816,08/03/201114:34:41,20,0,SQLServer2005Monitoring-OpenSourceTools,"Does
+10775849,05/27/201217:20:09,1257285,03/08/201215:00:59,43,4,OpensourceprojectusingMicrosoftEnterpriseLibrary5.0,"Can
+1.TheserverreappearsonanewIPaddress.So,
+7259487,08/31/201115:32:23,921900,08/31/201115:17:04,1,0,CannotopenmodaldialogcontainingMSFlexGridactivex
+1.CanIconnecttoopensessionintheserver,
+7021161,08/11/201105:22:05,144695,07/24/200918:53:31,1837,25,iOS:UIWebViewfullopensourcebrowser?,"Doesanyoneknow
+-MaybeusingWindowsFileSharing(Likehowothercomputers
+9408163,02/23/201206:22:54,1140170,01/10/201205:51:01,25,0,howtogettherowandcolof
+IfItype""rvm1.8.7--default""thenitworks,but
+Iamwonderingifsomeofyouguysknowsomething
+5039677,02/18/201109:40:30,256747,01/22/201013:10:06,61,1,CanIhostmyFAQonstackoverflow?,"Weare
+ThisworksfineinChrome,FirefoxandSafari-but
+password,text,128,notnull(iplantousemy
+WhatIneedandhavebeenlookingforisa
+Theworkbookyouaretryingtosavehasthesame
+7484461,09/20/201111:37:37,915095,08/27/201103:39:13,26,0,JQueryorJavascriptmessagethatshouldbeshown
+I'vebeenthinkingondevelopingitwithRubytooor
+Whileitisnoproblemtosimplyopenaneditor
+64547,09/15/200816:43:00,8351,09/15/200815:46:07,11,2,OpenSourceRoleModelProjects,"Whatwouldyouconsider
+5580797,04/07/201112:11:53,177941,09/23/200916:56:43,118,0,OpenSourceProjectsBasedinNewYorkCity?,"I'm
+B.Toacknowledgethepastandlearnfromcaseexamplesto
+Iamlookingfor6languages,withaslittleoverlap
+11241269,06/28/201209:02:06,1487913,06/28/201208:24:26,1,0,Howcanuesandroidbrowseropenfacebookapp,"i
+Doesanyoneisfamiliarwiththisarea?orIsthere
+WedonotwanttoviolatetheGPL,andwe
+Iamlookingforasolutionthatisvisuallyappealing
+Soforthefirsth1""GettingStarted""onthecurrent
+1678760,11/05/200906:51:00,51958,01/06/200908:17:51,90,24,Whichmethodsandclasswillbeinvokewhen
+I'mwonderingwhatstepsdidImiss?andwhat'sthe
+217827,10/20/200809:04:09,10980,09/16/200803:40:08,73,12,WhichisthebestOpensourceapplicationserver?,We
+2.IsthereanyotherwaythatIcando
+9207979,02/09/201209:08:47,545759,12/17/201007:04:04,1,0,"FacebookOpenGraphAPI,aggregationissue","Wheniam
+Andthiswasagoodstart.Takingtheaboveexample,
+Theproblemislargedata,Iwanttospendlessresources
+Iwanttomodifytheiframeinordertomake
+I'musing<ahref=""http://code.google.com/p/excellibrary/"">excellibrary</a>butit'sverybuggyandI
+3825958,09/29/201021:21:09,250019,01/13/201016:48:58,172,15,PartnershipLicense:PercentageoverLibs,"Lotsofdevelopersspend
+95710,09/18/200818:58:18,13930,09/16/200821:20:53,68,15,Howdoyoupromote/advertise/evangelizeyouropensourceproject?,"How
+IfCamStudiodoesnotsupportthisfeatureIamlooking
+11375102,07/07/201212:43:14,1508714,07/07/201212:27:26,1,0,Whichdatabasesisbettertostoreblobdata?,"I
+1)Haveachooserandwhentheuserwantsto
+2308946,02/22/201005:12:28,92568,04/18/200918:45:13,125,2,Algorithmsquestion/problemlists,"Thismaynotbequestionof
+8454397,12/10/201104:27:12,1074762,12/01/201105:05:14,1,0,Whyalltheprojectsarenotshowingin
+9341269,02/18/201212:47:34,318751,04/16/201017:41:21,430,12,OpenpdfwithAdobeAcrobatReaderandjump
+-IfIsendastringreceivedfromtheconsole
+11539880,07/18/201211:05:40,907803,08/23/201113:34:20,68,6,whereIcanpublicatemyreleasenotesabout
+IsthereasettinginIE6/7/8thatIcanuse
+Idon'thavetimetorepeatthisprocessoverand
+-Ifitisnotopen,asktheuserwhether
+BecauseI'mtryingtoopenarangeofportsthat
+1762637,11/19/200911:22:36,214510,11/19/200911:22:35,1,0,ProblemopeningURLwithbrowserSafarioniphone,"I,
+Thisistheonlycodeinthemethod.Whenthe
+Onthecontraryifaprocesstake'ssometimeor
+4423033,12/12/201017:52:22,539085,12/11/201019:04:35,5,1,TheHashtabletypeinC#isimplementedusing
+Theoutputshowsthatitsfailedtocreateasemaphore
+I'mlookingformoreinformationaboutthehistoricalaspectof
+Thelistneedstobesavedinatextfile.
+Ihaveanapplicationwhereitexportsthedatainto
+Ifsomeoneneedsthecontentofthedecodedreferencestream,
+10882036,06/04/201213:18:11,1428123,05/31/201210:12:04,3,1,Showingcannotopenfile,"Thisismycode
+125597,09/24/200805:44:09,11177,09/16/200805:53:10,61,5,IsitreasonabletohaveBoostasa
+I'mtryingtochangethedirectoryoftheOpenDialogso
+Iamtryingtochangethe""delimiters""inmycsv
+Thiscodeworksinasimplephpfile.Idownload
+9337999,02/18/201202:31:40,483112,10/21/201014:06:10,77,4,ThegoodwaytopublishopensourceJavaScript
+10297711,04/24/201212:21:30,1286723,03/22/201218:42:38,3458,402,Eclipseisnotopeningwhenclickoneclipse.exe,"When
+9539753,03/02/201220:14:05,280772,02/24/201022:53:36,194,1,"<type=""input""runat=""server"">","Thisisoutof
+8138528,11/15/201115:12:42,1044287,11/13/201115:17:23,10,0,OpenaprogrambyacodeinAndroid,Is
+Iamwillingtodonatesomeofmytimeto
+1)Usingonlineregistrationformtocapturegenericinformation.Pass
+Isthisgenerallythe""best""waytogoaboutit,
+Obviouslytakinguserinputandenteringitstraightintoa
+4371907,12/06/201023:10:56,508284,11/15/201013:22:30,48,1,howtoopenusercontrolandclose2seconds,"Hello
+Itriedtore-installtheIISserverrole,butit
+8846020,01/13/201204:41:41,243655,01/05/201004:42:34,57,0,Opensourceprojectthatusescmake,"Cananyonelet
+8192040,11/19/201105:05:21,918034,08/29/201114:51:05,20,0,openingDirectorieslikeinwindowsexploreronwindows
+Here'smyquestion:what'stheeasiestwaytofixthis?
+8143662,11/15/201121:52:04,614787,02/13/201104:16:38,242,6,Howtoopenport8080ofMacOS
+11459219,07/12/201219:28:08,1514165,07/10/201208:27:16,6,0,Exportoperationfromspecificcalendar,"thereisanopen
+ForexampleiaddintoMyApplicationAppDelegateeveryIBActionusedto
+IusedtheTool(s)[***namp***,etc]tocheck(gettheList)Which
+2225900,02/09/201000:20:28,262525,01/30/201015:29:50,1,0,BestFOSSsiteforabeginner,"What'sthebest
+3.Canadevelopersufferfromthefactthatof
+2036213,01/10/201005:24:04,236128,12/21/200915:35:11,401,34,ListofOpenSourceprojectsthataidAndroid
+And,nothingismoreannoyingthanhavingallofyour
+Soifmyajaxcallbackchecksanyofmycheckboxes
+11542797,07/18/201213:41:38,1255273,03/07/201217:04:15,22,0,Dontwantsoftkeyboardtoautomaticallyshowon
+5915125,05/06/201117:50:34,229072,12/10/200919:12:50,967,25,fftshift/ifftshiftC/C++sourcecode,"Doesanyoneknowifthere
+51988,09/09/200814:18:23,654,08/07/200814:41:00,1,0,Whatworkhasbeendoneoncross-platformmobile
+Anysuggestions?Anyonegonethroughanythingsimilar?Managementhasalready
+10474634,05/06/201221:56:14,747761,05/10/201123:14:33,31,5,"TimePickerDialogretrievesoncreatetime,notcurrent
+Q3-Arethereanybooksrelatedtothisarea?
+Thecrashoccurswhentheuserattemptsto open table
+907154,05/25/200915:28:28,20126,09/21/200823:21:25,769,51,howtoopenVS2005solution using VS
+Beforeyousaythatthiscan'tbedone, that Google
+7509512,09/22/201104:19:08,168752,09/04/200919:59:34,103,1,Isthereanopensourceforum with gmail
+4691630,01/14/201113:43:39,478144,10/16/201020:24:18,2030,131,OpenSourceequivalentofVBScript?,"Wherewould you use
+Isthereawaytodisabletheprotected method -
+6530530,06/30/201106:00:09,647669,03/07/201105:45:25,1,0,howtoreadajsonfile with mulitple
+7627898,10/02/201117:12:01,498448,11/05/201014:55:05,9,0,SavedocumentwithZohoremoteapi,I am using
+9442326,02/25/201207:52:10,1191660,02/06/201206:12:41,11,2,E:unabletobindnetlinksocketno such a
+9067967,01/30/201217:22:37,83905,03/28/200903:01:11,6481,419,opensourceimplementationforcontactsUI of ios
+10942632,06/08/201203:13:34,1439606,06/06/201211:19:36,1,0,Howtocreateaopensource 3d charts,"i
+3950015,10/16/201017:40:10,382252,07/02/201017:08:02,111,6,Passingacursortoanactivity?,"Is this possible?
+IhaveAccess2010installedonmymachine and even
+I'mwritinginC#,butifthere'sa better solution
+5195149,03/04/201114:38:48,643042,03/03/201113:21:17,1,0,Whatthebestsolutiontomanage web project
+4177744,11/14/201013:48:59,300713,03/24/201010:37:18,75,0,c++OSXopendefaultbrowser!,"Iwould like to
+Ineedtoknowifthereisany PHP article
+1518686,10/05/200907:36:54,147685,07/30/200908:59:47,61,6,VBScriptautomaterightclick,"Iwantto automate simulation
+10214280,04/18/201217:01:10,966072,09/27/201101:05:33,310,1,ifcallablethrowstimeoutexceptionjavawith streams open,"I'm
+7176283,08/24/201113:32:11,883650,08/08/201108:25:12,1,0,closepopupwindowinjavascript,"Im having a
+10246238,04/20/201212:27:28,758906,05/18/201109:20:12,186,1,OpenSourcecodeforBipedalRobot Controller,"Are there
+9914168,03/28/201219:14:08,1012663,10/25/201111:57:44,39,1,Copyright?IntellectualPropertyforWii?,"I'vemade a variety
+Withthatinmind,I'mhavingahard time finding
+8590015,12/21/201112:43:41,1109856,03/17/201108:49:46,1,0,.doctoPalintextconverter,"Pleaselet me know
+Ionlybeginningtolearnthisareaso any help
+-HowdoIcheckifaport (or a
+9365728,02/20/201217:38:02,13198,09/16/200817:36:01,13297,808,jspcompileerror,"Ihavefollowingline in a
+5041365,02/18/201112:38:09,528057,12/02/201013:53:37,1,0,HowdoIInsertLatitude/Longtitudein my database
+Myquestionis,isthereanywayto pass the
+8691379,01/01/201201:14:40,1002509,10/19/201106:02:29,136,4,"Whatdoes""stylexyz.css""insidea javascript file
+7493374,09/21/201100:37:27,948072,09/16/201103:21:30,1,0,howtoretaindefaultmodefrom Administrator mode
+Ifullyadmittobeingverynewand inexperienced at
+4736109,01/19/201114:04:44,573057,01/12/201116:51:26,1,1,"VC++VisualStudioadded.hppfiles in subdirectory
+ihavearegistrationformandwouldlike to have
+11183281,06/25/201203:48:23,150024,08/03/200922:06:47,13,0,RecommendedsolutionsforPHPbasedpatient/client database applications?,"Can
+7040350,08/12/201112:51:51,891797,08/12/201112:51:51,1,0,"Codesniffer,beautifierandcodingstyle for C?","I
+4334781,12/02/201012:05:15,527930,12/02/201012:05:15,1,0,Jvmgetcrashedwheniam using java
+wheniopendfmwithnotepad,it'spicture property have
+OrisitbesttogeneratePDFnatively, rather than
+8037483,11/07/201114:02:11,346417,05/20/201018:17:04,6,3,RepositioningjQueryUIAutocompleteonbrowser resize,"There is
+3095263,06/22/201016:47:55,341308,05/14/201014:16:13,1,0,DisplayinganMVCpageinsidea webform iFrame,Is
+NowthatI'vegottenthisfar,Iget an error
+11413633,07/10/201212:46:29,1514762,07/10/201212:22:50,1,0,WherecanIfindopensource 1d bin
+Doesanybodyknowhowtocreatearequest that tells
+9127230,02/03/201210:35:37,968408,09/28/201105:34:17,1,1,GetParameterfromaURLposted in a
+FYI:Ihaveapluginwhichcurrentlyhave viewer which
+2950426,06/01/201014:06:55,336040,05/08/201007:10:19,273,62,HowopenanAESencrypted.zip?,"Can anybody please
+11419955,07/10/201218:52:35,1468857,06/20/201210:07:49,6,1,InternetExplorernotopeningcertainlinks,"I'm using IE
+10535477,05/10/201213:53:11,1118884,12/28/201107:36:48,15,0,"iamgettingandroidMediaPlayer:Error (1,1001) ???.","
+8847965,01/13/201208:50:12,379732,06/30/201006:52:25,46,0,MySQLvsFirebirdvsSqLite,"Wewill implement a
+butIneedmorespecificinformationslikeis really MySql
+5863750,05/03/201100:02:44,102371,05/06/200917:32:42,11494,510,Isthereanyopensourceproject using Dapper
+Theidealanswerwillbethenamesof one or
+ButfornowI'mjusttryingtosee if there
+5163634,03/02/201105:11:40,615960,02/14/201109:24:06,20,0,myapplicationtakeslongtimeto open in
+9689911,03/13/201218:30:28,722822,04/24/201118:18:06,199,10,abetterwaytohandlecursors as to
+9029695,01/27/201206:22:54,1002672,10/19/201107:56:10,6,0,HowcanIopenafile as a
+5920257,05/07/201109:38:45,683395,03/30/201106:25:04,1,0,howcanopenanimagein a image
+5666408,04/14/201116:26:23,708343,04/14/201116:26:23,1,0,SQLServerExpress,"IdownloadedSQLserverexpress edition, but
+Theworkbookyouaretryingtosavehas the same
+11621413,07/23/201222:21:55,524371,11/29/201021:10:06,11,1,Combineamitlicensedcomponentwith a gpl
+IsthereawaythatIcanclick on the
+Iknowitsaverybasicquestion.But i want
+10923861,06/06/201223:44:51,1298376,03/28/201213:58:29,13,0,Webhostedsoftwaretosharestuffbetween neighbors,"I'm looking
+Bothapp2.classandthehtmlfilearein the same
+10270580,04/22/201218:00:19,1349852,04/22/201217:48:40,1,0,pythonopenHTTPorHTTPSsession over TCP
+IftheInputStreamapproachisnotpossible,but you know
+1366905,09/02/200910:29:08,124280,06/17/200911:52:04,6,1,Best.NETlibraryfortrees,"Whatis the best
+7423189,09/14/201121:26:58,876816,08/03/201114:34:41,20,0,SQLServer2005Monitoring-Open Source Tools,"Does
+10775849,05/27/201217:20:09,1257285,03/08/201215:00:59,43,4,OpensourceprojectusingMicrosoftEnterprise Library 5.0,"Can
+1.TheserverreappearsonanewIP address. So,
+7259487,08/31/201115:32:23,921900,08/31/201115:17:04,1,0,CannotopenmodaldialogcontainingMS FlexGrid activex
+1.CanIconnecttoopensessionin the server,
+7021161,08/11/201105:22:05,144695,07/24/200918:53:31,1837,25,iOS:UIWebViewfullopensourcebrowser?,"Does anyone know
+-MaybeusingWindowsFileSharing(Likehow other computers
+9408163,02/23/201206:22:54,1140170,01/10/201205:51:01,25,0,howtogettherowand col of
+IfItype""rvm1.8.7--default""thenit works, but
+Iamwonderingifsomeofyouguys know something
+5039677,02/18/201109:40:30,256747,01/22/201013:10:06,61,1,CanIhostmyFAQon stackoverflow?,"We are
+ThisworksfineinChrome,FirefoxandSafari - but
+password,text,128,notnull(iplanto use my
+WhatIneedandhavebeenlookingfor is a
+Theworkbookyouaretryingtosavehas the same
+7484461,09/20/201111:37:37,915095,08/27/201103:39:13,26,0,JQueryorJavascriptmessagethatshould be shown
+I'vebeenthinkingondevelopingitwithRuby too or
+Whileitisnoproblemtosimplyopen an editor
+64547,09/15/200816:43:00,8351,09/15/200815:46:07,11,2,OpenSourceRoleModelProjects,"Whatwould you consider
+5580797,04/07/201112:11:53,177941,09/23/200916:56:43,118,0,OpenSourceProjectsBasedinNew York City?,"I'm
+B.Toacknowledgethepastandlearnfromcase examples to
+Iamlookingfor6languages,withas little overlap
+11241269,06/28/201209:02:06,1487913,06/28/201208:24:26,1,0,Howcanuesandroidbrowseropen facebook app,"i
+Doesanyoneisfamiliarwiththisarea?or Is there
+WedonotwanttoviolatetheGPL, and we
+Iamlookingforasolutionthatis visually appealing
+Soforthefirsth1""GettingStarted""on the current
+1678760,11/05/200906:51:00,51958,01/06/200908:17:51,90,24,Whichmethodsandclasswillbe invoke when
+I'mwonderingwhatstepsdidImiss?and what's the
+217827,10/20/200809:04:09,10980,09/16/200803:40:08,73,12,WhichisthebestOpensource application server?,We
+2.IsthereanyotherwaythatI can do
+9207979,02/09/201209:08:47,545759,12/17/201007:04:04,1,0,"FacebookOpenGraphAPI,aggregationissue","When i am
+Andthiswasagoodstart.Takingthe above example,
+Theproblemislargedata,Iwanttospend less resources
+Iwanttomodifytheiframeinorder to make
+I'musing<ahref=""http://code.google.com/p/excellibrary/"">excellibrary</a>butit'sverybuggy and I
+3825958,09/29/201021:21:09,250019,01/13/201016:48:58,172,15,PartnershipLicense:PercentageoverLibs,"Lotsof developers spend
+95710,09/18/200818:58:18,13930,09/16/200821:20:53,68,15,Howdoyoupromote/advertise/evangelizeyouropen source project?,"How
+IfCamStudiodoesnotsupportthisfeatureI am looking
+11375102,07/07/201212:43:14,1508714,07/07/201212:27:26,1,0,Whichdatabasesisbettertostore blob data?,"I
+1)Haveachooserandwhentheuser wants to
+2308946,02/22/201005:12:28,92568,04/18/200918:45:13,125,2,Algorithmsquestion/problemlists,"Thismaynotbe question of
+8454397,12/10/201104:27:12,1074762,12/01/201105:05:14,1,0,Whyalltheprojectsarenot showing in
+9341269,02/18/201212:47:34,318751,04/16/201017:41:21,430,12,OpenpdfwithAdobeAcrobatReader and jump
+-IfIsendastringreceivedfrom the console
+11539880,07/18/201211:05:40,907803,08/23/201113:34:20,68,6,whereIcanpublicatemyrelease notes about
+IsthereasettinginIE6/7/8thatI can use
+Idon'thavetimetorepeatthisprocess over and
+-Ifitisnotopen,askthe user whether
+BecauseI'mtryingtoopenarangeof ports that
+1762637,11/19/200911:22:36,214510,11/19/200911:22:35,1,0,ProblemopeningURLwithbrowserSafari on iphone,"I,
+Thisistheonlycodeinthemethod. When the
+Onthecontraryifaprocesstake'ssome time or
+4423033,12/12/201017:52:22,539085,12/11/201019:04:35,5,1,TheHashtabletypeinC#is implemented using
+Theoutputshowsthatitsfailedtocreate a semaphore
+I'mlookingformoreinformationaboutthehistorical aspect of
+Thelistneedstobesavedina text file.
+Ihaveanapplicationwhereitexportsthe data into
+Ifsomeoneneedsthecontentofthedecoded reference stream,
+10882036,06/04/201213:18:11,1428123,05/31/201210:12:04,3,1,Showingcannotopenfile,"Thisis my code
+125597,09/24/200805:44:09,11177,09/16/200805:53:10,61,5,IsitreasonabletohaveBoost as a
+I'mtryingtochangethedirectoryofthe OpenDialog so
+Iamtryingtochangethe""delimiters""in my csv
+Thiscodeworksinasimplephpfile. I download
+9337999,02/18/201202:31:40,483112,10/21/201014:06:10,77,4,Thegoodwaytopublishopen source JavaScript
+10297711,04/24/201212:21:30,1286723,03/22/201218:42:38,3458,402,Eclipseisnotopeningwhenclick on eclipse.exe,"When
+9539753,03/02/201220:14:05,280772,02/24/201022:53:36,194,1,"<type=""input""runat=""server"">","Thisis out of
+8138528,11/15/201115:12:42,1044287,11/13/201115:17:23,10,0,Openaprogrambyacode in Android,Is
+Iamwillingtodonatesomeofmy time to
+1)Usingonlineregistrationformtocapturegeneric information. Pass
+Isthisgenerallythe""best""waytogo about it,
+Obviouslytakinguserinputandenteringitstraight into a
+4371907,12/06/201023:10:56,508284,11/15/201013:22:30,48,1,howtoopenusercontrolandclose 2 seconds,"Hello
+Itriedtore-installtheIISserverrole, but it
+8846020,01/13/201204:41:41,243655,01/05/201004:42:34,57,0,Opensourceprojectthatusescmake,"Can anyone let
+8192040,11/19/201105:05:21,918034,08/29/201114:51:05,20,0,openingDirectorieslikeinwindowsexplorer on windows
+Here'smyquestion:what'stheeasiestwayto fix this?
+8143662,11/15/201121:52:04,614787,02/13/201104:16:38,242,6,Howtoopenport8080of Mac OS
+11459219,07/12/201219:28:08,1514165,07/10/201208:27:16,6,0,Exportoperationfromspecificcalendar,"thereis an open
+ForexampleiaddintoMyApplicationAppDelegateeveryIBAction used to
+IusedtheTool(s)[***namp***,etc]tocheck(getthe List) Which
+2225900,02/09/201000:20:28,262525,01/30/201015:29:50,1,0,BestFOSSsiteforabeginner,"What's the best
+3.Canadevelopersufferfromthefact that of
+2036213,01/10/201005:24:04,236128,12/21/200915:35:11,401,34,ListofOpenSourceprojectsthat aid Android
+And,nothingismoreannoyingthanhavingall of your
+Soifmyajaxcallbackchecksanyof my checkboxes
+11542797,07/18/201213:41:38,1255273,03/07/201217:04:15,22,0,Dontwantsoftkeyboardtoautomatically show on
+5915125,05/06/201117:50:34,229072,12/10/200919:12:50,967,25,fftshift/ifftshiftC/C++sourcecode,"Doesanyoneknow if there
+51988,09/09/200814:18:23,654,08/07/200814:41:00,1,0,Whatworkhasbeendoneon cross-platform mobile
+Anysuggestions?Anyonegonethroughanythingsimilar?Management has already
+10474634,05/06/201221:56:14,747761,05/10/201123:14:33,31,5,"TimePickerDialogretrievesoncreatetime, not current
+Q3-Arethereanybooksrelatedto this area?

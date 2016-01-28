@@ -1,0 +1,155 @@
+\documentclass[11pt]{exam}
+\usepackage{euscript}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{epsfig}
+\usepackage{xspace}
+\usepackage{color}
+\usepackage{url}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{array}
+\graphicspath{ {images/} }
+%%%%%%%  For drawing trees  %%%%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{calc, shapes, backgrounds}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\textheight}{9in}
+\setlength{\topmargin}{-0.600in}
+\setlength{\headheight}{0.2in}
+\setlength{\headsep}{0.250in}
+\setlength{\footskip}{0.5in}
+\flushbottom
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\columnsep}{2pc}
+\setlength{\parindent}{1em}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\eps}{\varepsilon}
+
+\renewcommand{\c}[1]{\ensuremath{\EuScript{#1}}}
+\renewcommand{\b}[1]{\ensuremath{\mathbb{#1}}}
+\newcommand{\s}[1]{\textsf{#1}}
+\newcommand{\tb}[1]{\textbf{#1}}
+
+\newcommand{\E}{\textbf{\textsf{E}}}
+\renewcommand{\Pr}{\textbf{\textsf{Pr}}}
+
+
+\begin{document}
+
+%\maketitle
+\begingroup
+\fontsize{14pt}{16pt}\selectfont
+\begin{center}  
+CS 6350 Machine Learning Project Final Report \\
+
+\end{center}  
+
+\begin{center}
+\textbf{\underline{ Predict Closed Questions on Stack Overflow.}
+}
+\end{center}
+\endgroup
+%\begin{center}
+%	\textbf{\underline{C}
+%\end{center}
+%
+%
+
+
+
+\section{Team Members}
+
+\begin{itemize}
+	\item Aravind Senguttuvan (u0877727)
+	\item Anirudh Narasimhamurthy (u0941400)
+\end{itemize}
+
+
+\section{Description of the problem}
+
+\begin{itemize}
+
+\item[] The problem which we worked on involves building  a classifier which predicts whether or not a question posted on StackOverflow will be closed, given the question as submitted. Broadly speaking our problem is a multi-class classification problem and the labels which the classifier outputs are:
+\begin{enumerate}
+	\item Open
+	\item Off Topic(OT)
+	\item Not Constructive (NC)
+	\item Not a Real Question(NRQ)
+	\item Too Localized(TL)
+\end{enumerate}
+
+\item[] If the labels corresponds to 1 it is an indication that question is most likely to be open. If the labels correspond to any one of 2, 3, 4 or 5 then there is a high probability that the examples or questions or posts corresponding to those labels will be predicted to be closed.
+%After a question is submitted in StackOverflow, the proposed algorithm classifies whether a question will be closed or not. Classifier will output a label based on four features namely  Off topic (OT), not constructive (NC), not a real question (NRQ), too lo
+%calized (TL) or exact duplicate.  
+\end{itemize}
+
+\section{Interestingness of the problem}
+
+\begin{itemize}
+	\item[] 
+
+Given that StackOverflow is a question answer service which is widely used by programmers and technical personell all across the world, it requires more resources to moderate and maintain its standards. An automation of the process of closing questions on StackOverflow would be a small step in reducing the  
+
+\item[] The problem statement was provided in a contest organized by Kaggle, but as people who have been exposed to Machine Learning, this problem has several interesting components which could be solved using the concepts and algorithms we have learnt in the course. Another interesting feature of the problem is to find a way to convert the multi-class classification problem finally to a binary classfication problem which would instruct or intimate someone if a question needs to be closed or not.
+If the model works accurately, then there wouldn't be a need of manual intervention to close a question posted on StackOverflow. 
+
+\end{itemize}
+
+
+\section{Dataset explained}
+
+
+Kaggle had provided two different datasets: private and public dataset against which the users could test their predictions. We ran our experiments on the public training data. 
+
+Number of examples:
+
+
+
+Not all questions submitted to StackOverflow are valid and few questions are flagged invalid and closed due to one of the following reasons:
+Off topic, not constructive, not a real question, too localized or exact duplicate. Closing a question involves voting by other users and once it reaches a specific count, the moderator then closes the question. This involves a lot of work.
+
+To make life easier and to have a sophisticated software solution for moderation StackOverflow posted its dataset on a Kaggle competition to identify the best prediction model for closing questions.
+
+\section{Important Ideas Explored}
+
+\begin{table*}
+	\begin{tabular}{ |p{4cm}|p{4cm} |}
+		\hline
+		\textbf {Label} & \textbf{Number of examples}\\ \hline
+		Open		&	89337\\  \hline
+		Not a Real Question	&	38622 \\  \hline
+		Not Constructive	&	20897 \\  \hline
+		Off Topic		&	20865\\  \hline
+		Too Localized		&	8910\\  \hline
+		
+	\end{tabular}
+	\caption{Distribution of training examples for each label} 
+	\label{tab:cctop10} 
+\end{table*} 
+
+\section{Ideas from class which were used}
+
+Our motive was slightly different in that we were more interested in finding the status of a question which 
+
+\section{Description of the techniques/algorithms used}
+
+\section{Lessons Learnt/Observations}
+
+\section{Results }
+\section{Future work}
+
+
+\section{Techniques Used}
+
+The paper \url{http://ceur-ws.org/Vol-1031/paper2.pdf} uses Random Forest, Support Vector Machine(SVM) and Vowpal Wabbit techniques to determine if a question should be closed. We are trying to prove the paper's evaluation.
+
+
+\end{document}
