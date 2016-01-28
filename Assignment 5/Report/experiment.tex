@@ -1,0 +1,206 @@
+\section{Ensembles of decision trees}
+\label{sec:expt}
+
+\subsection*{Support Vector Machines}
+Recall from class that an SVM is a technique for learning a linear
+classifier by minimizing the following loss function:
+%
+$$ E(w) = \frac{1}{2}w^Tw + C \sum_i \max (0, 1-y_i w^Tx_i)$$
+%
+where $C$ is a hyper-parameter that controls the relative importance
+of the regularization term $\frac{1}{2}w^Tw$ with respect to the error
+term. As always, the inputs $x_i$ are real valued vectors and
+$y_i \in \{-1, +1\}$. This formalism is commonly referred to as L2 regularization and L1 loss.
+
+\subsection*{Stochastic Gradient Descent}
+The concept behind SGD is to do gradient decent, but only calculate
+the gradient using a single example. In practice, it can be helpful to
+shuffle the order of the data for each epoch.
+%
+\begin{enumerate}
+\item Initialize $w = \vec{0}$, $t = 0$
+\item for epoch $1 \ldots T$:
+  \begin{enumerate}
+    \item for example $(x_i, y_i)$ for every $i$ (random order)
+        \begin{enumerate}
+        \item $r_t$ = Learning rate at $t$
+        \item $w = w - r_t \nabla E(w, x_i, y_i)$
+        \item $t = t + 1$
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+%
+% Instead of the true gradient of the loss function you will use the an
+% upper bound.
+
+Here, the gradient is defined as follows:
+$$ \nabla E(w, x, y) =
+\begin{cases}
+	w - C y x  & \text{if } y w^T x \leq 1 \\
+	w & \text{otherwise}
+\end{cases}
+$$
+(Refer to the lecture slides for the full description of the
+algorithm.)
+
+The learning rate is often stated as just $r$, but in practice it is
+better to scale it down as the algorithm converges. In your
+implementation $r$ will be a function of the initial learning rate,
+$\rho_0$, and the example number, $t$. In the case of the SVM loss
+function the best function to choose is
+$$ r(t, \rho_0) = \frac{\rho_0}{1 + \rho_0t/C}.$$
+
+Here, $t$ should be initialized to zero at the start and incremented
+for each example. Note that $t$ should not be reset at the start of
+the epoch.
+
+\subsection*{Cross Validation}
+In class we have seen cross validation is used to select hyper-parameters for learning
+algorithms. Some of the training data is put
+aside, and when training is finished, the resulting classifier is
+tested on the held out data. This allows you get get an idea of how
+well the particular choice of hyper-parameters does. Since you did not
+train on your whole dataset you may have introduced a bias. To correct
+for this, you will need to train many classifiers with different
+subsets of the data removed.
+
+For problems with small data sets, a popular method is the
+leave-one-out approach. For each example, a classifier is trained on
+the rest of the data and the chosen example is then evaluated. The
+performance of the classifier is the average accuracy on all the
+examples. The downside to this method is for a data set with $n$
+examples you must train $n$ different classifiers. Of course, this is
+not practical for the data set you will use in this problem, so you
+will hold out subsets of the data many times instead.
+
+Specifically, for this problem, you should implement $k$-fold cross
+validation to identify the hyper-parameters $C$ and the initial
+learning rate $\rho_0$. The general approach for $k$-fold cross validation is
+the following: Suppose you want to evaluate how good a particular
+hyper-parameter is. You split the training data $D$ into $k$ parts.
+Now, you will train your model on $k-1$ parts with the chosen
+hyper-parameter and evaluate the trained model on the remaining part.
+You should repeat this $k$ times, choosing a different part for
+evaluation each time. This will give you $k$ values of accuracy. Their
+{\em average cross-validation accuracy} gives you an idea of how good
+this choice of the hyper-parameter is. To find the best value of the
+hyper-parameter, you will need to repeat this procedure for different
+choices of the hyper-parameter.
+
+\subsection*{Data}
+
+The data is the badges data (again). This dataset is similar to the
+badges data that we have seen in class and in a previous homework. The
+decision function, however, is a rather complex one this time. You can
+download the dataset from the course website in a file called {\tt
+  badges.tar.gz}. This archive consists for four files: {\tt
+  badges-train.txt} and {\tt badges-test.txt} are the new training and
+test files. In addition, we have also extracted indicator features
+from the first five characters of the first and last names. The
+feature extracted train and test data is in {\tt
+  badges-train-features.txt} and {\tt badges-test-features.txt}
+respectively. 
+
+This feature extracted data is in the libSVM data format which we used
+in homework 2. Recall from the description from homework 2 that in
+this format, each line is a single training example. The format of the
+each line in the data is
+
+{\tt <label> <index1>:<value1> <index2>:<value2> ...}
+
+Here {\tt <label>} denotes the label for that example. The rest of the
+elements of the row is a sparse vector denoting the feature vector.
+For example, if the original feature vector is $[0, 0, 1, 2, 0, 3]$,
+this would be represented as {\tt 3:1 4:2 6:3}. That is, only the
+non-zero entries of the feature vector are stored.
+
+\subsection*{Experiment}
+
+You will train on the new badges data available on the class web page.
+
+\begin{enumerate}
+\item Implement SVM using SGD as a training algorithm.
+
+\item Using the provided features, run 10-fold cross validation to find
+  the best values for the hyper-parameters $\rho_0$ and $C$. Try out
+  all combinations of $\rho_0 \in \{0.001, 0.01, 0.1, 1\}$ and
+  $C \in \{0.1, 1, 10, 100, 1000\}$. Feel free to expand the set of parameters if you have enough time.
+  
+  Show a table including the 5 best parameters with three columns: $\rho_0$, $C$ and the average cross
+  validation accuracy for that choice of hyper-parameters. 
+
+  (Since all you care about here is the relative accuracy to other
+  training runs it is not necessary for the weight vector to converge.
+  To make cross validation faster, only run 10 epochs of SGD.)
+
+  Use the best value of $\rho_0$ and $C$ to train a classifier on the
+  entire training set. Run at least 30 epochs of SGD. Report the performance of this classifier on
+  the test set.
+
+\item Next, you will use the ID3 algorithm to train decision trees on
+  sub-samples of the data. You can use your own implementation of
+  decision trees from the earlier homework for this part. The one
+  important change to the tree growing algorithm is a depth parameter.
+  This is a number that restricts the tree from growing beyond a
+  certain depth. If the depth of the tree reaches the limit, your
+  algorithm should create a leaf with the majority label.
+
+
+  From the full training set, randomly sample half the examples. Grow
+  a decision tree of maximum depth 4 on this sample. This decision
+  tree can now predict a $+$ or $-$ for any example. 
+
+  Train hundred different decision trees of maximum depth four on the
+  entire training set. {\em Note: To get a hundred {\bf different}
+    decision stumps, you need to repeatedly sample 50\% of the
+    training set and train a decision tree on the sub-sample.}
+  
+  At this point, you should have 100 trees, each of which can predict
+  $+$ or $-$ for any example. These trees will create your new feature
+  set. Report the mean and variance of the accuracy of these trees on the test set.
+
+  Create a new 100-dimensional dataset using the hundred decision
+  trees as follows: For each example in the data set, the value of the
+  $i^{th}$ feature will be the prediction of the $i^{th}$ decision
+  tree. This will give you a new feature representation for the data.
+  Using this new feature set, train a linear separator with the SGD
+  algorithm and evaluate with 10-fold cross-validation as in part 2.
+
+
+  {\em Remember}: Make sure that you only sample from the training set
+  to generate the decision stumps, otherwise you might contaminate the
+  training set with examples from the test set and this will skew your
+  results.
+
+\item Repeat this with depth limits of 8 and 20.
+
+\end{enumerate}
+
+
+\subsection{Evaluation and report}
+
+You should compare seven models: SGD for SVM on the original feature
+set, three depths of decision trees, and SVM over an ensemble of decision trees with depth limits four,
+eight and twenty. Of course, this is just the minimum. Feel free to
+experiment with more parameter combinations (decision tree depth,
+learning rate for the SGD and fraction of the data used to train the
+trees.) In each setting, you should use cross-validation to get the
+best SVM hyper-parameters.
+
+Report the following for each case: The best cross validation accuracy
+and the test set performance. For decision trees show the variance instead of cross validation accuracy. Rank the different methods in terms of
+their performance. In the end, your conclusion will be that a
+particular algorithm (or set of algorithms) performed the best.
+Briefly state the assumptions that this conclusion is based on.
+
+{\bf As mentioned in previous homeworks, you may use any programming
+  language for your implementation. Upload your code along with a
+  script so the TAs can run your solution in the CADE environment}.
+
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "hw5"
+%%% End:
+

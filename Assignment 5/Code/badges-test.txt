@@ -1,0 +1,74 @@
+- Leslie Grate
+- Von-Wun Soo
+- Chris Darken
+- Thomas Ellman
+- Ronald L. Rivest
+- Shai Ben-David
++ Krishnan Pillaipakkamnatt
+- Chun-Nan Hsu
+- Sandra Panizza
++ Frank Stephan
++ Haym Hirsh
++ David W. Opitz
++ Grigoris Karakoulas
++ Paul Utgoff
+- Michael Redmond
++ Aurora Perez
++ Reinhard Blasig
+- Jorg-Uwe Kietz
+- Lorenza Saitta
+- Ricard Gavalda
+- John R. Rose
++ Nina Mishra
++ Tal Grossman
++ Lance Fortnow
++ Paul Fischer
++ Sally Goldman
++ David Mathias
++ David Haussler
+- Jason Catlett
++ David B. Skalak
+- Wolfgang Janko
+- Moshe Koppel
++ Jose L. Balcazar
+- Chris Drummond
+- Thomas G. Dietterich
++ Dan Oblinger
+- Steve A. Chien
+- Holly Yanco
+- William Cohen
++ Hiroshi Tanaka
++ David Pierce
++ Zhixiang Chen
+- Sebastian Seung
+- Yolanda Gil
+- Martin Kummer
++ David W. Aha
+- Tom Bylander
+- Carla E. Brodley
+- Xuemei Wang
+- George A. Drastal
++ Mark Changizi
+- Hiroshi Motoda
+- Oded Maron
++ Margo Guertin
+- Jeff Jackson
++ Bhaskar Dasgupta
++ Daniel Hennessy
+- Richard A. Caruana
+- Long-Ji Lin
++ Diana Gordon
++ Earl S. Harris Jr.
+- Robert Sloan
++ Stephen Muggleton
+- Craig Nevill-Manning
++ Kan Deng
+- Roberto Piola
+- Robert C. Holte
+- Yoram Singer
++ Tapio Elomaa
+- Peter Bartlett
+- Sholom Weiss
++ Wray Buntine
++ Gary Weiss
+- Geoffrey Gordon

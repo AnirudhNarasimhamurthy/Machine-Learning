@@ -1,0 +1,220 @@
+- Eddy Mayoraz
++ James S. Royer
+- Sanjay Jain
+- John Rachlin
+- Stefan Kramer
+- Cullen Schaffer
++ Marcos Salganicoff
+- Eyal Kushilevitz
+- Fernando Pereira
++ Andrew Y. Ng
+- Justin Boyan
+- John Fischer
+- Glenn Silverstein
++ Nitin Indurkhya
++ Paul W. Goldberg
+- Neela Khan
++ Jiarong Hong
++ Steffen Lange
+- Michael W. Barley
+- Robert Williamson
+- Huw Roberts
++ Dana Angluin
+- Thomas E. Kammeyer
++ Alexander M. Meystel
++ Toshiyasu Matsushima
+- Kimmen Sjolander
++ Dana Ron
+- Scott E. Decatur
+- Bruce A. MacDonald
+- Masayuki Inaba
++ Drago Indjic
++ David Montgomery
++ Malini Bhandaru
+- Susan L. Epstein
++ Nikolay Nikolaev
+- Usama Fayyad
++ Michael Littman
+- Jude Shavlik
+- Thomas G. Spalthoff
++ Olivier De Vel
++ Sreerama K. Murthy
++ William Sakas
+- Johannes Furnkranz
++ Wan P. Chiang
++ Neil Berkman
++ Lars Asker
++ Bala Kalyanasundaram
+- J. R. Quinlan
+- Robert Schapire
+- Leslie Pack Kaelbling
+- Ken Lang
++ Jing Peng
+- Claire Cardie
++ Pang-Chieh Chen
+- Michael Kearns
+- Merrick L. Furst
+- Tom Fawcett
++ Minoru Asada
+- Irina Tchoumatchenko
++ Moshe Leshno
++ Timothy P. Barber
+- Joseph O'Sullivan
++ Brian Tester
+- George Berg
+- Welton Becket
++ Mary Soon Lee
++ Bir Bhanu
++ Andrey Burago
+- Joe Suzuki
+- Judy A. Franklin
+- Jonathan Hodgson
++ Daniel Kortenkamp
+- Roni Khardon
++ Mark W. Craven
++ Hal Duncan
+- Robert S. Roos
++ Gary M. Selzer
++ Harris Drucker
++ Daniel L. Silver
+- Bob Evans
+- Matevz Kovacic
++ Bill Byrne
+- Leonard Pitt
++ Patricia J. Riddle
+- Craig Knoblock
+- Mark Schwabacher
++ Wai Lam
++ Mark Staley
++ Alma Whitten
+- Andrew W. Moore
+- Steven W. Norton
++ Bradley L. Whitehall
+- Michele Sebag
+- John Case
++ Philip Chan
+- Kenji Yamanishi
+- Wolfgang Maass
++ Yoav Freund
++ Priscilla Rasmussen
+- Ronitt Rubinfeld
+- Stuart Russell
++ Aaron Feigelson
++ Javed Aslam
++ Antoine Cornuejols
+- J. Jeffrey Mahoney
+- Johanne Morin
+- Chen K. Tham
+- Jonathan Gratch
+- David Cohn
+- Satinder Pal Singh
+- George H. John
++ Klaus P. Jantke
++ Lance Riley
+- Thomas Zeugmann
++ Nathalie Japkowicz
++ David Gillman
++ Eric Allender
++ Kamal M. Ali
+- Nicolas Fiechter
++ Takefumi Yamazaki
++ Anselm Blumer
+- Ameur Foued
++ Efim Kinber
++ Haralabos Athanassiou
++ Maja Mataric
+- Joel Ratsaby
+- Darko Zupanic
+- Myriam Abramson
++ Kate Goelz
++ Michael A. meystel
+- Yoshifumi Sakai
++ Sridhar Mahadevan
+- Dennis F. Kibler
++ Sean Slattery
+- Jean-Daniel Zucker
+- Tom Hancock
++ Arlindo Oliveira
+- Dunja Mladenic
+- Sonya Snedecor
+- Jyrki Kivinen
++ Matthias Heger
++ Shaul Markovitch
++ Lisa Hellerstein
++ Arun Sharma
++ Charles X. Ling
++ Lindley Darden
++ William Gasarch
++ Mario Marchand
++ Avrim Blum
+- Michael I. Jordan
++ Marko Grobelnik
++ Claude Sammut
++ Mandayam T. Suraj
++ Pat Langley
++ Emanuel Knill
+- Pascal Koiran
++ Jean Gabriel Ganascia
++ David Loewenstern
++ Armand Prieditis
+- Michael J. Donahue
++ Vijay Raghavan
+- Donna Slonim
++ Filippo Neri
+- Justinian Rosca
+- Lyle H. Ungar
+- Cristina Baroglio
++ Naoki Abe
+- Melinda T. Gervasio
+- Jeffery Clouse
+- Jong-Hoon Oh
++ Attilio Giordana
++ Seth Flanders
++ Phil Long
++ Rich Maclin
++ R. Bharat Rao
++ Paul Vitanyi
+- Nader Bshouty
+- Tom M. Mitchell
++ Eric Baum
+- Lorien Y. Pratt
+- John M. Zelle
++ Carl H. Smith
+- Robert P. Daley
+- Gerald F. DeJong
++ Prasad Tadepalli
++ Yishay Mansour
++ Tatsuo Unemi
++ Martinch Krikis
+- Ed Pednault
+- R. Andrew McCallum
++ Stan Matwin
+- Clare Bates Congdon
+- Chidanand Apte
+- Wee Sun Lee
+- Ron Kohavi
++ Steven Minton
++ Janusz Wnek
++ Barak A. Pearlmutter
++ Karsten Verbeurgt
+- Bernhard Pfahringer
++ Brian D. Davidson
++ Patrick M. Murphy
++ Michael de la Maza
++ Steven Salzberg
+- Foster J. Provost
++ Manfred Warmuth
+- Claudio Facchinetti
+- Thomas Wengerek
++ Kazushi Ikeda
++ David Finton
+- Mona Singh
++ Dan Roth
++ William A. Greene
+- Nicolo Cesa-Bianchi
+- Russell Greiner
+- Richard S. Sutton
+- L. Thorne McCarty
++ David Helmbold
+- Stephen Kwek
++ Randolph Jones

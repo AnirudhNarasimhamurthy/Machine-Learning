@@ -1,0 +1,43 @@
+\section{Kernel Perceptron}
+
+In the class, we have seen the idea of kernels applied to support
+vector machines.
+%
+In this question, you will derive the kernel version of the Perceptron
+learner. For the purpose of this question, we will assume that
+instances are classified using a feature representation $\phi(x)$.
+That is, classification using Perceptron is the sign of the dot
+product of the weight vector and the example $w^T\phi(x)$. The goal is
+to, instead, represent this using a kernel $K(w, x)$.
+
+Note that, with this feature representation, the perceptron update is
+$w \leftarrow w + r y \phi(x)$, whenever there is a mistake (i.e.
+$yw^T\phi(x) < 0$). 
+
+\begin{enumerate}
+\item Assume that the initial weight vector is the zero vector. Then,
+  show that $w = \sum_{(x_i, y_i) \in M} y_i \, \phi(x_i)$. Here $M =
+  \{(x_i, y_i)\}$ is the set of examples on which the learning
+algorithm made mistakes.
+
+
+\item Let $K$ be a kernel function defined as $K(u,v) = \phi(u)^T
+  \phi(v)$.
+
+  Using the fact that the weight vector can be written as in the
+  previous question, write the classification step
+  $y=sgn\left(w^T\phi(x)\right)$ using the kernel function $K(u,v)$
+  instead of using the explicit feature representation $\phi(u)$.
+
+\item In pseudo code, write the full kernel perceptron algorithm.
+
+  (Hint: Instead of storing a weight vector, you will store a list of
+  examples the algorithm made a mistake on.)
+\end{enumerate}
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "hw5"
+%%% End: 
