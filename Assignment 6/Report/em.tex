@@ -1,0 +1,51 @@
+\section{The EM algorithm}
+
+The two local newspapers The Times and The Gazette publish $n$
+articles everyday. The article length in the newspapers is distributed
+based on the Exponential Distribution with parameter $\lambda$. That
+is, for an non-negative integer x:
+
+\[ P(wordcount = x| \lambda)=\lambda e^{-\lambda x}. \]
+
+with parameters $\lambda_T, \lambda_G$ for the Times and the Gazette,
+respectively.
+
+({\bf Note}: Technically, using the exponential distribution is not
+correct here because the exponential distribution applies to real
+valued random variables, whereas here, the word counts can only be
+integers. However, for simplicity, we will use the exponential
+distribution instead of, say a Poisson.)
+
+\begin{enumerate}
+\item[(a)] Given an issue of one of the newspapers $(x_1,\ldots
+   x_n)$, where $x_i$ denotes the length of the $i$th
+   article, what is the most likely value of $\lambda$?
+
+
+ \item[(b)] Assume now that you are given a collection of $m$ issues
+   $\{(x_1,\ldots x_n)\}_1^m$ but you do not know which issue is a
+   Times and which is a Gazette issue. Assume that the probability of
+   a document is generated from the Times is $\eta$. In other words,
+   it means that the probability that a document is generated from the
+   Gazette is $1-\eta$.
+
+
+   Explain the generative model that governs the generation of this
+   data collection. In doing so, name the parameters that are required
+   in order to fully specify the model.
+
+
+ \item[(c)] Assume that you are given the parameters of the model
+   described above. How would you use it to cluster issues to two
+   groups, the Times issues and the Gazette issues?
+
+ \item[(d)] Given the collection of $m$ issues without labels of which
+   newspaper they came from, derive the update rule of the EM
+   algorithm. Show all of your work.
+
+\end{enumerate}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "hw6"
+%%% End: 

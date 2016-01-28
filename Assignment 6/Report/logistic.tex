@@ -1,0 +1,30 @@
+\section{Logistic Regression}
+\label{sec:lr}
+
+We looked  maximum a posteriori learning of the logistic regression
+classifier in class. In particular, we showed that learning the
+classifier is equivalent to the following optimization problem:
+
+$$\min_\bw \sum_{i=1}^m \log\left(1 + \exp(-y_i \bw^T\bx_i)\right) + \frac{1}{\sigma^2} \bw^T\bw$$
+
+In this question, you will derive the stochastic gradient descent
+algorithm for the logistic regression classifier.
+
+\begin{enumerate}
+\item[(a)] What is the derivative of the function $\log\left(1 +
+    \exp(-y \bw_i^T\bx_i)\right)$ with respect to the weight vector?
+
+\item[(b)] The inner most step in the SGD algorithm is the gradient
+  update where we use a single example instead of the entire dataset
+  to compute the gradient. Write down the objective where the entire
+  dataset is composed of a single example, say $(\bx_i, y_i)$. Derive
+  the gradient of this objective with respect to the weight vector.
+
+\item[(c)] Write down the pseudo code for the stochastic gradient
+  algorithm using the gradient from part (b) above.
+\end{enumerate}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "hw6"
+%%% End: 

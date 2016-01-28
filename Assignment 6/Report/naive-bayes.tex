@@ -1,0 +1,49 @@
+\section{Naive Bayes Classification}
+
+In the class, we saw how we can build a naive Bayes classifier for
+discrete variables. In this question, you will explore the case when
+features are not discrete. Suppose instances, represented by $\bx$,
+are $d$ dimensional real vectors and the labels, represented by $y$,
+are either $0$ or $1$.
+
+Recall from class that the naive Bayes classifier assumes that all
+features are conditionally independent of each other, given the class
+label. That is 
+
+$$p(\bx | y) = \prod_j p(x_j | y)$$
+
+Now, each $x_j$ is a real valued feature. Suppose we assume that these
+drawn from a class specific normal distribution. That is,
+\begin{enumerate}
+\item When $y = 0$, each $x_j$ is drawn from a normal distribution
+  with mean $\mu_{0,j}$ and standard deviation $\sigma_{0,j}$, and
+\item When $y = 1$, each $x_j$ is drawn from a normal distribution
+  with mean $\mu_{1,j}$ and standard deviation $\sigma_{1,j}$
+\end{enumerate}
+
+
+Now, suppose we have a training set $S = \{(\bx_i, y_i)\}$ with $m$
+examples and we wish to learn the parameters of the classifier, namely
+the prior $p = P(y = 1)$ and the $\mu$'s and the $\sigma$'s. For
+brevity, let the symbol $\theta$ denote all these parameters together.
+
+\begin{enumerate}
+\item[(a)] Write down $P(S | \theta)$, the likelihood of the data
+  in terms of the parameters. Write down the log-likelihood.
+
+\item[(b)] What is the prior probability $p$? You can derive this by
+  taking the derivative of the log-likelihood with respect to the
+  prior and setting it to zero.
+
+\item[(c)] By taking the derivative of the log-likelihood with respect
+  to the $\mu_j$'s and the $\sigma_j$'s, derive expressions for the
+  $\mu_j$'s and the $\sigma_j$'s.
+
+\end{enumerate}
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "hw6"
+%%% End: 
