@@ -1,0 +1,79 @@
+\section{Nearest Neighbors}
+
+The nearest neighbors algorithm partitions the space of examples into
+regions corresponding to different labels. In two dimensions, the
+decision boundaries can be represented as a Voronoi diagram, which
+shows regions of the plane associated with each label. 
+
+For this part, you will be drawing the decision boundaries for simple
+datasets. 
+
+\begin{enumerate}
+\item[1.] [5 points] Using the Euclidean distance measure between
+  points, show a Voronoi map corresponding to the nearest neighbor
+  classification of the following four points. (That is, draw a
+  diagram that shows how the nearest neighbor classification of the
+  following four points partitions the two dimensional plane.)
+
+  \begin{center}
+    \begin{tabular}{|c|cc|}
+      \hline
+      Label & x  & y  \\
+      \hline
+      A     & 1  & 1  \\
+      A     & 1  & -1 \\
+      B     & -1 & -1 \\
+      C     & 2  & -2 \\
+      \hline
+    \end{tabular}
+  \end{center}
+
+\item[2.] [5 points] Using the city-block distance measure, show a
+  Voronoi map corresponding to the nearest neighbor classification of
+  the following three points.
+  
+  (Recall that the city-block measure/Manhattan distance/$L_1$
+  distance/taxicab metric between two points ${\bf x}$, ${\bf y}$ in
+  the $n$ dimensional space $\Re^n$ is defined as $\sum_{i=1}^n |x_i -
+  y_i|$.) 
+
+  \begin{center}
+    \begin{tabular}{|c|cc|}
+      \hline
+      Label & x  & y  \\
+      \hline
+      A     & 1  & 1  \\
+      B     & -1 & -1 \\
+      C     & 2  & -2 \\
+      \hline
+    \end{tabular}
+  \end{center}
+
+
+\item[3.] [5 points] In the simple 1-nearest neighbor algorithm, the
+  label for a point is the same as the label of its nearest neighbor
+  in the training set. We will define a variant of this method, which
+  we will call the {\em weighted nearest neighbor algorithm}. If there
+  are $M$ training points, {\em all} of them contribute to the score
+  of final label.
+
+  Formally, say the training points are represented by ${\bf x}_i$
+  with their corresponding label $y_i$. A test point is ${\bf x}$,
+  then a label, say $A$, is associated with a score that is a function
+  $W$ of the distance of ${\bf x}$ from all the training points
+  labeled as $A$.
+
+  $$Score(A) = \sum_{i=1; y_i = A}^M \frac{1}{d({\bf x}_i, {\bf x})}.$$
+
+  Here, $d$ denotes the distance between points. For the purpose of
+  this question, we will assume that $d$ is the Euclidean distance.
+  The final classification is the label with the highest score.
+  
+  Using the weighted nearest neighbor algorithm with all four points
+  from question 1 above, what would the classification of a test point
+  at $(4, 0)$ be? Show how you get the label.
+\end{enumerate}
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "hw1"
+%%% End: 

@@ -1,0 +1,100 @@
+\section{The Badges Game (again)}
+
+In this question, you will implementing decision tree learners and the
+K-nearest neighbors algorithms. 
+
+This problem uses a variant on the badges data shown in the first
+lecture. You can find the data on the assignments page of the class
+website in a file called {\tt badges.tar.gz}. It consists of two files
+-- {\tt badges-train.txt} and {\tt badges-test.txt}, which you will
+use for training and testing respectively. Each file consists of a
+label (+/-) followed by a name. 
+%
+All the names in the files have been lower cased and new labels were
+generated using a new hidden function that is a composition of
+mathematical functions and {\bf categorical} features extracted from
+the names.
+
+Your goal is to use various learning algorithms on the training data
+to train a predictor and see how well it does on the test data.
+
+You may use any programming language for your implementation. However,
+the graders should be able to execute your code on the CADE machines.
+
+\begin{enumerate}
+\item An important step in creating machine learning applications is
+  to device useful features. For example, a feature function that
+  selects the second letter would have been a great feature to use on
+  the old badges data. eg: If this function was called $\phi$, then
+  $\phi($``George Washington"$) = $`e'. (And is unfortunately not so
+  great for this data!)
+  
+  Devise four feature functions and use them to extract features from
+  the new badges data. Describe each feature function in no more than
+  one line.
+  
+  At the end, you should have transformed each name in the training
+  and test set into a set of four feature values. 
+
+\item Implement a decision tree data structure. (Remember that the
+  decision tree need not be a binary tree!)
+
+\item Implement the ID3 learning algorithm for your decision tree
+  implementation. For debugging your implementation, you can use the
+  previous toy examples from the homework like the balloons data from
+  Table \ref{balloon}.
+
+\item ({\bf For 6350 students}) Implement the $MajorityError$ based
+  learning algorithm that you saw in the first question.
+
+\item Implement a K Nearest Neighbor classifier for $K \in \{1 \ldots
+  5\}$. Note that your features are only categorical. So you have to
+  make choices about how to measure distances between them. For
+  example, you could consider using the Hamming distance between
+  the feature representations.
+
+
+\item For each algorithm you implemented show the accuracy on the
+  testing data. Rank your algorithms in decreasing order of
+  performance.
+
+\end{enumerate}
+
+{\bf What to hand in for this problem:}
+\begin{enumerate}
+\item The report should detail your experiments. For each step,
+  explain in no more than a paragraph or so how your implementation
+  works. You may provide the results for the final step as a table or
+  a graph.
+
+\item {\em Your code should run on the CADE machines}. You should
+  include a shell script, {\tt run.sh}, that will execute your code
+  in the CADE environment. Your code should produce similar output
+  to what you include in your report.
+  
+  You are responsible for ensuring that the grader can execute the
+  code using only the included script. If you are using an
+  esoteric programming language, you should make sure that its
+  runtime is available on CADE.
+
+\item Please do not hand in binary files!
+
+\end{enumerate}
+
+{\bf Grading:}
+
+\begin{itemize}
+\item Features: 8 points
+\item Decision tree implementation: 2 points
+\item ID3: 10 points
+\item (For 6350 students) $MajorityError$: 10 points
+\item K-nearest neighbors: 15 points
+\item Evaluation and report: 20 points
+\end{itemize}
+
+{\em Not graded: Take a guess at how the labels were generated.}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "hw1"
+%%% End: 

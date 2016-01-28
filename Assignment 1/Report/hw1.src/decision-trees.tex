@@ -1,0 +1,121 @@
+\section{Decision Trees}
+\label{sec:decision-trees}
+
+{\footnotesize Several questions below ask you to write down decision
+  trees. Report decision trees as a series of {\tt if-then}
+  statements. For example, you could write a tree as follows:
+  
+\begin{verbatim}
+   if feature 0 = x:
+       if feature 1 = y:
+           if feature 2 = z:
+               class = +
+           if feature 2 != z:
+               class = -
+       if feature 1 != y:
+           class = +
+   if feature 0 != x:
+   		if feature 1 = r:
+           class = +
+       if feature 1 != r:
+           class = -
+\end{verbatim}
+}
+
+\begin{enumerate}
+\item[1.] [Boolean Functions, 9 points] Recall from class that
+  Boolean functions can be represented as decision trees. Represent
+  the following boolean functions as decision trees:
+  \begin{enumerate}
+  \item $(A \lor B) \land C$ [3 points]
+  \item $A \oplus B$ [3 points]
+  \item $A \land \lnot B \land \lnot C \land D$ [3 points]
+  \end{enumerate}
+
+\item[2.] [Inducing Decision Trees, 21 points] For this question, you
+  will use the Balloons dataset from the UCI Machine Learning
+  repository\footnote{You can learn more about the UCI repository at
+    \url{http://archive.ics.uci.edu/ml/}. Look for information about
+    the balloons data set at
+    \url{http://archive.ics.uci.edu/ml/datasets/Balloons}.}. The data
+  consists of four attributes (Color, Size, Action and Age) and a
+  binary label. 
+
+  The entire dataset is shown in Table \ref{balloon} below.
+
+  \begin{table}[h]
+    \centering
+    \begin{tabular}{|c|cccc|}
+      \hline
+      Label & Color  & Size  & Action  & Age   \\
+      \hline
+      T     & YELLOW & SMALL & STRETCH & ADULT \\
+      T     & YELLOW & SMALL & STRETCH & CHILD \\
+      T     & YELLOW & SMALL & DIP     & ADULT \\
+      F     & YELLOW & SMALL & DIP     & CHILD \\
+      F     & YELLOW & SMALL & DIP     & CHILD \\
+      T     & YELLOW & LARGE & STRETCH & ADULT \\
+      T     & YELLOW & LARGE & STRETCH & CHILD \\
+      T     & YELLOW & LARGE & DIP     & ADULT \\
+      F     & YELLOW & LARGE & DIP     & CHILD \\
+      F     & YELLOW & LARGE & DIP     & CHILD \\
+      T     & PURPLE & SMALL & STRETCH & ADULT \\
+      T     & PURPLE & SMALL & STRETCH & CHILD \\
+      T     & PURPLE & SMALL & DIP     & ADULT \\
+      F     & PURPLE & SMALL & DIP     & CHILD \\
+      F     & PURPLE & SMALL & DIP     & CHILD \\
+      T     & PURPLE & LARGE & STRETCH & ADULT \\
+      T     & PURPLE & LARGE & STRETCH & CHILD \\
+      T     & PURPLE & LARGE & DIP     & ADULT \\
+      F     & PURPLE & LARGE & DIP     & CHILD \\
+      F     & PURPLE & LARGE & DIP     & CHILD \\
+      \hline
+    \end{tabular}
+    \caption{Balloon Data Set}
+    \label{balloon}
+  \end{table}
+
+
+
+  \begin{enumerate}
+  \item Find the entropy of the balloon dataset. [2 points]
+
+  \item Find the information gain of the Action feature. [2 points]
+
+  \item Use the ID3 heuristic we have seen in the class to manually
+    construct a decision tree that correctly classifies the data. [7
+    points]
+
+  \item We will now develop another heuristic for learning decision
+    trees instead of ID3. If, at some node, we stopped growing the
+    tree and assign the majority label of the remaining examples at
+    that node, then the empirical error on the training set at that
+    node will be
+    $$MajorityError = 1 - \max(p, 1-p)$$
+    where, $p$ is the fraction of examples that are labeled $T$ and,
+    hence, $1 - p$ is the fraction labeled $F$. Notice that
+    $MajorityError$ can be thought of as a measure of impurity just
+    like entropy.
+
+    Redefine information gain using $MajorityError$ as the measure of
+    impurity. What is the redefined information gain of the Action
+    feature? [3 points]
+
+  \item Using the $MajorityError$-based impurity measure, construct a
+    decision tree for the balloons data. [7 points]
+  \end{enumerate}
+
+
+\item[3.] ({\bf For CS 6350 students}, 15 points) Use the first twelve
+  examples to create decision trees using both the heuristics. How
+  well do the trees perform on the remaining examples? Report the
+  error rates (i.e the ratio of the errors to the number of examples)
+  of the two algorithms.
+
+\end{enumerate}
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "hw1"
+%%% End: 
