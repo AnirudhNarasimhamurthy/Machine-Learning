@@ -1,0 +1,172 @@
+\section{The Perceptron Algorithm and Its Variants}
+
+\subsection{The Task and Data}
+Imagine you have access to information about people such as age,
+gender and level of education. Now, you want to predict whether a
+person makes over \$50$K$ a year or not using these features.
+
+We will use Adult data set from the UCI Machine Learning
+repository\footnote{Look for information about the Adult data set at
+  \url{https://archive.ics.uci.edu/ml/datasets/Adult}}. The original
+Adult data set has 14 features, among which 6 are continuous and 8 are
+categorical. In order to make it easier to use, we will use a
+pre-processed version (and subset) of the original Adult data set,
+created by the makers of the popular LIBSVM tool. From the LIBSVM
+website: ``In this data set, the continuous features are discretized
+into quantiles, and each quantile is represented by a binary feature.
+Also, a categorical feature with $m$ categories is converted to $m$
+binary features.''
+
+Use the training/test files called {\tt `a1a.train'} and {\tt
+  `a1a.test'}, available on the assignments page of the class
+website.\footnote{These are the same as {\tt a1a} and {\tt a1a.t}
+  available at
+  \url{http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html}}
+This data is in the LIBSVM format, where each row is a single training
+example. The format of the each row in the data is
+
+{\tt <label> <index1>:<value1> <index2>:<value2> ...}
+
+Here {\tt <label>} denotes the label for that example. The rest of the
+elements of the row is a sparse vector denoting the feature vector.
+For example, if the original feature vector is $[0, 0, 1, 2, 0, 3]$,
+this would be represented as {\tt 3:1 4:2 6:3}. That is, only the
+non-zero entries of the feature vector are stored.
+
+\subsection{Algorithms}
+
+You will implement two variants of the Perceptron algorithm. Note that
+each variant has different hyper-parameters, as described below.
+
+\begin{itemize}
+\item {\bf Perceptron}: This is the simple version of Perceptron as
+  described in the class. An update will be performed on an example
+  ($\bx$, $y$) if $y (\bw^T\bx + b) < 0$.
+  
+  {\bf Hyper-parameters}: The learning rate $r$
+
+  Two things bear additional explanation. 
+
+  First, note that in the formulation above, the bias term $b$ is
+  explicitly mentioned. This is because the features in the Adult data
+  do not include a bias feature. Of course, you could choose to add an
+  additional constant feature to each example and not have the
+  explicit extra $b$ during learning. (See the class lectures for more
+  information.) However, here, we will see the version of Perceptron
+  that explicitly has the bias term.
+
+  Second, if $\bw$ and $b$ are initialized with zero, then the
+  learning rate will have no effect. To see this, recall the
+  Perceptron update: 
+
+  \begin{itemize}
+  \item[] $\bw_{new} \leftarrow \bw_{old} + r y \bx$
+  \item[] $b_{new} \leftarrow b_{old} + r y$.
+  \end{itemize}
+
+  Now, if $\bw$ and $b$ are initialized with zeroes and a learning
+  rate $r$ is used, then we can show that the final parameters will be
+  equivalent to having a learning rate $1$. The final weight vector
+  and the bias term will be scaled by $r$ compared to the unit
+  learning rate case.
+
+  For this assignment, you should initialize the weight vector and the
+  bias randomly and tune the learning rate parameter. We recommend
+  trying small values less than one. (eg. 1, 0.1, 0.01, etc.)
+
+\item {\bf Margin Perceptron}: This variant of Perceptron will perform
+  an update on an example ($\bx$, $y$) if $y (\bw^T\bx + b) < \mu$,
+  where $\mu$ is an additional {\bf positive} hyper-parameter,
+  specified by the user. Note that because $\mu$ is positive, this
+  algorithm can update the weight vector even when the current weight
+  vector does not make a mistake on the current example.
+
+  {\bf Hyper-parameters}: Learning rate $r$ and the margin $\mu$. 
+
+  We recommend setting the value of $\mu$ between 0 and 5.0.
+  
+\end{itemize}
+
+{\footnotesize As mentioned in previous homework, you may use any
+  programming language for your implementation. However, the graders
+  should be able to execute your code on the CA DE machines.}
+
+\subsection{Experiments}
+
+\begin{enumerate}
+\item[1.] [Sanity check, 10 points] Run the simple Perceptron algorithm
+  on the data in Table \ref{t2} (one pass only) and report the weight
+  vector that the algorithm returns. How many mistakes does it make?
+
+  You may choose whatever learning rate you like, but we suggest that
+  you informally experiment with them before submitting the results. 
+  
+\item[2.] [Online setting, 15 points] Run both the Perceptron algorithm
+  and the margin Perceptron on the Adult data for one pass. 
+  
+  Report the number of updates (or equivalently mistakes) made by each
+  algorithm and the accuracy of the final weight vector on both the
+  training and the test set.
+
+  Once again, you will require some playing with the algorithm
+  hyper-parameters. You will see that the hyper-parameters will make a
+  difference and so try out different values. You may even write some
+  code to run the algorithms with different sets of hyper-parameters.
+
+\item[3.] [Using online algorithms in the batch setting, 20 points]
+  The third experiment is to evaluate the algorithms in a more
+  realistic setting, where the algorithms perform multiple passes over
+  the training data. This means that there is an {\em additional}
+  hyper-parameter: the number of epochs.
+
+  Run the algorithms for three and five epochs and report the number
+  of updates made, and the accuracies of the final weight vectors on
+  the training and test data.
+  
+  It may be important to shuffle the training data before starting
+  each epoch. Report the results of the above experiments when you
+  shuffle do so. Briefly explain your results.
+
+\item[4.] ({\bf For 6350 Students}) [Aggressive Perceptron with
+  Margin, 10 points] Implement is an extension of the margin
+  Perceptron which performs an {\em aggressive} update as follows:
+
+  If $y (\bw^T\bx + b) < \mu$, then update
+  \begin{itemize}
+  \item[(a)] $\bw_{new} \leftarrow \bw_{old} + \eta yx$
+  \item[(b)] $b_{new} \leftarrow b + \eta y$,
+  \end{itemize}
+  Unlike the standard Perceptron algorithm, here the learning rate
+  $\eta$ is given by
+  $$\eta = \frac{\mu - y(\bw^T\bx + b)}{\bx^T\bx + 1}$$
+  
+  As with the margin perceptron, there is an additional {\bf positive}
+  parameter $\mu$. 
+
+  We call this the aggressive update because the update can be derived
+  from the following optimization problem. When we see that
+  $y(\bw^T\bx +b) < \mu$, we try to find new values of $\bw$ and $b$
+  such that $y(\bw^T\bx +b) = \mu$ using 
+
+  \begin{eqnarray*}
+    \min_{\bw_{new}} & \frac{1}{2} ||\bw_{new} - \bw_{old}||^2 +\frac{1}{2}(b_{new} - b_{old})^2 \\
+      \mbox{s.t.} & y(\bw^T\bx +b) = \mu.
+  \end{eqnarray*}
+
+  That is, the goal is to find the smallest change in the weights so
+  that the current example is on the right side of the weight vector.
+  By substituting (a) and (b) from above into this optimization
+  problem, we will get a single variable optimization problem whose
+  solution gives us the $\eta$ defined above. You can think of this
+  algorithm as trying to tune the weight vector so that the current
+  example is correctly classified right after the update.
+
+  Repeat the batch experiments with the aggressive update. You should
+  report two sets of results (one with shuffling and one without).
+
+\end{enumerate}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "hw2"
+%%% End:

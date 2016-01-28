@@ -1,0 +1,770 @@
+Margin Perceptron
+--------------------------------------------
+Bias: 0.11494603383
+
+Hyper parameters
+----------------
+r= 0.01 mu= 1.07832237369
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 714
+Accuracy on the training set for margin perceptron is : 55.5140186916 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 294
+Accuracy on the training set is : 81.6822429907 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5732
+Accuracy on the test set is : 81.4833957876 %
+
+
+---------------------
+r=0.01 mu=2
+---------------------
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.892910771706
+
+Hyper parameters
+----------------
+r= 0.01 mu= 2
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 800
+Accuracy on the training set for margin perceptron is : 50.1557632399 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 291
+Accuracy on the training set is : 81.8691588785 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5525
+Accuracy on the test set is : 82.1520868329 %
+******************************************************************************
+
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: -0.744216575262
+
+Hyper parameters
+----------------
+r= 0.01 mu= 2
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 813
+Accuracy on the training set for margin perceptron is : 49.3457943925 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 298
+Accuracy on the training set is : 81.4330218069 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5664
+Accuracy on the test set is : 81.7030624112 %
+******************************************************************************
+
+
+
+
+
+-----------------------------
+r=0.1 mu=2
+----------------------------
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.947447545743
+
+Hyper parameters
+----------------
+r= 0.1 mu= 2
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 588
+Accuracy on the training set for margin perceptron is : 63.3644859813 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 290
+Accuracy on the training set is : 81.9314641745 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5513
+Accuracy on the test set is : 82.1908515312 %
+******************************************************************************
+
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.666568599913
+
+Hyper parameters
+----------------
+r= 0.1 mu= 2
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 596
+Accuracy on the training set for margin perceptron is : 62.8660436137 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 280
+Accuracy on the training set is : 82.554517134 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5133
+Accuracy on the test set is : 83.4184003101 %
+******************************************************************************
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.123817911194
+
+Hyper parameters
+----------------
+r= 0.1 mu= 2
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 600
+Accuracy on the training set for margin perceptron is : 62.6168224299 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 284
+Accuracy on the training set is : 82.3052959502 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5377
+Accuracy on the test set is : 82.6301847784 %
+******************************************************************************
+
+
+
+------------------------------
+
+r=1 mu=2
+------------------------------
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: -0.584600551011
+
+Hyper parameters
+----------------
+r= 1 mu= 2
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 432
+Accuracy on the training set for margin perceptron is : 73.0841121495 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 284
+Accuracy on the training set is : 82.3052959502 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5780
+Accuracy on the test set is : 81.3283369944 %
+******************************************************************************
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.652614109931
+
+Hyper parameters
+----------------
+r= 1 mu= 2
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 436
+Accuracy on the training set for margin perceptron is : 72.8348909657 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 289
+Accuracy on the training set is : 81.9937694704 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5798
+Accuracy on the test set is : 81.270189947 %
+******************************************************************************
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: -0.285947309896
+
+Hyper parameters
+----------------
+r= 1 mu= 2
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 422
+Accuracy on the training set for margin perceptron is : 73.707165109 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 282
+Accuracy on the training set is : 82.4299065421 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5274
+Accuracy on the test set is : 82.9629151053 %
+******************************************************************************
+
+
+
+
+-----------------------
+r=1 mu=4
+-----------------------
+
+
+
+
+Hyper parameters
+----------------
+r= 1 mu= 4
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 465
+Accuracy on the training set for margin perceptron is : 71.0280373832 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 274
+Accuracy on the training set is : 82.9283489097 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5426
+Accuracy on the test set is : 82.4718955937 %
+******************************************************************************
+
+Margin Perceptron
+--------------------------------------------
+Bias: -0.276485812549
+
+Hyper parameters
+----------------
+r= 1 mu= 4
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 463
+Accuracy on the training set for margin perceptron is : 71.1526479751 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 274
+Accuracy on the training set is : 82.9283489097 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5331
+Accuracy on the test set is : 82.7787827885 %
+******************************************************************************
+
+
+
+-------------------------------
+r=0.1 mu=4
+------------------------------
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: -0.842889484505
+
+Hyper parameters
+----------------
+r= 0.1 mu= 4
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 674
+Accuracy on the training set for margin perceptron is : 58.0062305296 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 262
+Accuracy on the training set is : 83.6760124611 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5135
+Accuracy on the test set is : 83.4119395271 %
+******************************************************************************
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: -0.514582789777
+
+Hyper parameters
+----------------
+r= 0.1 mu= 4
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 675
+Accuracy on the training set for margin perceptron is : 57.9439252336 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 260
+Accuracy on the training set is : 83.800623053 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5103
+Accuracy on the test set is : 83.5153120558 %
+******************************************************************************
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.249793520306
+
+Hyper parameters
+----------------
+r= 0.1 mu= 4
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 677
+Accuracy on the training set for margin perceptron is : 57.8193146417 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 261
+Accuracy on the training set is : 83.738317757 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5069
+Accuracy on the test set is : 83.6251453676 %
+******************************************************************************
+
+
+-----------------------
+r=0.01 mu=4
+------------------------
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: -0.98433525746
+
+Hyper parameters
+----------------
+r= 0.01 mu= 4
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 852
+Accuracy on the training set for margin perceptron is : 46.9158878505 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 374
+Accuracy on the training set is : 76.6978193146 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 6965
+Accuracy on the test set is : 77.5003230392 %
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.346549891062
+
+Hyper parameters
+----------------
+r= 0.01 mu= 4
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 836
+Accuracy on the training set for margin perceptron is : 47.9127725857 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 361
+Accuracy on the training set is : 77.507788162 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 6979
+Accuracy on the test set is : 77.4550975578 %
+
+
+
+Hyper parameters
+----------------
+r= 0.1 mu= 2.14478709121
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 612
+Accuracy on the training set for margin perceptron is : 61.8691588785 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 286
+Accuracy on the training set is : 82.1806853583 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5289
+Accuracy on the test set is : 82.9144592325 %
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: -0.204004214941
+
+Hyper parameters
+----------------
+r= 0.1 mu= 5
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 703
+Accuracy on the training set for margin perceptron is : 56.199376947 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 261
+Accuracy on the training set is : 83.738317757 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5013
+Accuracy on the test set is : 83.8060472929 %
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.326821728612
+
+Hyper parameters
+----------------
+r= 0.1 mu= 5
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 698
+Accuracy on the training set for margin perceptron is : 56.5109034268 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 269
+Accuracy on the training set is : 83.2398753894 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5081
+Accuracy on the test set is : 83.5863806693 %
+
+
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.461913775386
+
+Hyper parameters
+----------------
+r= 0.01 mu= 5
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 857
+Accuracy on the training set for margin perceptron is : 46.6043613707 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 353
+Accuracy on the training set is : 78.0062305296 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 6729
+Accuracy on the test set is : 78.2626954387 %
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.969034634719
+
+Hyper parameters
+----------------
+r= 0.01 mu= 5
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 905
+Accuracy on the training set for margin perceptron is : 43.6137071651 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 359
+Accuracy on the training set is : 77.6323987539 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 6913
+Accuracy on the test set is : 77.6683033984 %
+******************************************************************************
+
+
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.574492403334
+
+Hyper parameters
+----------------
+r= 1 mu= 5
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 486
+Accuracy on the training set for margin perceptron is : 69.7196261682 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 257
+Accuracy on the training set is : 83.9875389408 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5141
+Accuracy on the test set is : 83.3925571779 %
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.664622132448
+
+Hyper parameters
+----------------
+r= 1 mu= 5
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 479
+Accuracy on the training set for margin perceptron is : 70.1557632399 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 260
+Accuracy on the training set is : 83.800623053 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5247
+Accuracy on the test set is : 83.0501356764 %
+
+
+
+
+
+
+Margin Perceptron
+--------------------------------------------
+Bias: 0.635317828249
+
+Hyper parameters
+----------------
+r= 0.01 mu= 5
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 899
+Accuracy on the training set for margin perceptron is : 43.9875389408 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 387
+Accuracy on the training set is : 75.8878504673 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 7286
+Accuracy on the test set is : 76.4633673601 %
+
+
+
+
+
+
+
+
+
+

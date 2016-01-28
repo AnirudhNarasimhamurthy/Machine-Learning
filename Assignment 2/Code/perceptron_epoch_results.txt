@@ -1,0 +1,319 @@
+Number of training examples 1605
+Number of test examples 30956
+Simple Perceptron Epoch
+--------------------------------------------
+Bias: -0.954538827438
+
+Hyper parameters
+----------------
+r= 0.01 epochs=3
+------------------
+No of updates in this each epoch [405]
+No of updates in this each epoch [405, 350]
+No of updates in this each epoch [405, 350, 317]
+No of updates in this each epoch [405, 350, 317, 318]
+No of updates in this each epoch [405, 350, 317, 318, 315]
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 8025
+The number of mistakes/updates made is : 1705
+Accuracy on the training set is : 78.753894081 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 266
+Accuracy on the training set is : 83.4267912773 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5694
+Accuracy on the test set is : 81.6061506655 %
+******************************************************************************
+
+
+Simple Perceptron Epoch
+--------------------------------------------
+Bias: -0.161831112709
+
+Hyper parameters
+----------------
+r= 0.1 epochs=3
+No of updates in this each epoch [382]
+No of updates in this each epoch [382, 338]
+No of updates in this each epoch [382, 338, 340]
+No of updates in this each epoch [382, 338, 340, 330]
+No of updates in this each epoch [382, 338, 340, 330, 351]
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 8025
+The number of mistakes/updates made is : 1741
+Accuracy on the training set is : 78.3052959502 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 335
+Accuracy on the training set is : 79.1277258567 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 7041
+Accuracy on the test set is : 77.2548132834 %
+******************************************************************************
+
+
+
+
+Simple Perceptron Epoch
+--------------------------------------------
+Bias: 0.0316962016747
+
+Hyper parameters
+----------------
+r= 1 epochs=3
+No of updates in this each epoch [351]
+No of updates in this each epoch [351, 331]
+No of updates in this each epoch [351, 331, 334]
+No of updates in this each epoch [351, 331, 334, 344]
+No of updates in this each epoch [351, 331, 334, 344, 334]
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 8025
+The number of mistakes/updates made is : 1694
+Accuracy on the training set is : 78.8909657321 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 269
+Accuracy on the training set is : 83.2398753894 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5766
+Accuracy on the test set is : 81.3735624758 %
+******************************************************************************
+
+
+
+
+
+
+
+Simple Perceptron Epoch
+--------------------------------------------
+Bias: -0.011530173088
+
+Hyper parameters
+----------------
+r= 1 epochs=3
+No of updates in each epoch [369]
+No of updates in each epoch [369, 334]
+No of updates in each epoch [369, 334, 353]
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 4815
+The number of mistakes/updates made is : 1056
+Accuracy on the training set is : 78.0685358255 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 308
+Accuracy on the training set is : 80.8099688474 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5932
+Accuracy on the test set is : 80.8373174829 %
+******************************************************************************
+
+
+
+Simple Perceptron Epoch
+--------------------------------------------
+Bias: -0.0459625751582
+
+Hyper parameters
+----------------
+r= 1 epochs=3
+No of updates in each epoch [372]
+No of updates in each epoch [372, 337]
+No of updates in each epoch [372, 337, 338]
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 4815
+The number of mistakes/updates made is : 1047
+Accuracy on the training set is : 78.2554517134 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 278
+Accuracy on the training set is : 82.6791277259 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5619
+Accuracy on the test set is : 81.8484300297 %
+
+
+
+Simple Perceptron Epoch
+--------------------------------------------
+Bias: 0.0197726960796
+
+Hyper parameters
+----------------
+r= 0.01 epochs=3
+No of updates in each epoch [481]
+No of updates in each epoch [481, 373]
+No of updates in each epoch [481, 373, 329]
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 4815
+The number of mistakes/updates made is : 1183
+Accuracy on the training set is : 75.4309449637 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 386
+Accuracy on the training set is : 75.9501557632 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 7336
+Accuracy on the test set is : 76.301847784 %
+
+
+
+
+
+
+Hyper parameters
+----------------
+r= 0.01 epochs=3
+No of updates in each epoch [477]
+No of updates in each epoch [477, 372]
+No of updates in each epoch [477, 372, 331]
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 4815
+The number of mistakes/updates made is : 1180
+Accuracy on the training set is : 75.4932502596 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 339
+Accuracy on the training set is : 78.8785046729 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 6652
+Accuracy on the test set is : 78.511435586 %
+
+
+
+
+
+Simple Perceptron Epoch
+--------------------------------------------
+Bias: -0.623677328491
+
+Hyper parameters
+----------------
+r= 0.1 epochs=3
+No of updates in each epoch [354]
+No of updates in each epoch [354, 333]
+No of updates in each epoch [354, 333, 341]
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 4815
+The number of mistakes/updates made is : 1028
+Accuracy on the training set is : 78.6500519211 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 278
+Accuracy on the training set is : 82.6791277259 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5581
+Accuracy on the test set is : 81.9711849076 %
+
+
+
+Simple Perceptron Epoch
+--------------------------------------------
+Bias: 0.379667404885
+
+Hyper parameters
+----------------
+r= 0.1 epochs=3
+No of updates in each epoch [377]
+No of updates in each epoch [377, 332]
+No of updates in each epoch [377, 332, 356]
+
+Training Set
+------------------------------------
+Total number of examples on training set is : 4815
+The number of mistakes/updates made is : 1065
+Accuracy on the training set is : 77.8816199377 %
+**************************************
+
+Applying the updated weight vector on the training examples to obtain the accuracy
+------------------------------------------------------------------------------------
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 291
+Accuracy on the training set is : 81.8691588785 %
+************************************************************************************
+
+Applying the updated weight vector on Test Examples to obtain the accuracy
+-----------------------------------------------------------------------------
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 6065
+Accuracy on the test set is : 80.4076754103 %
+
+
+
+
+
+
+

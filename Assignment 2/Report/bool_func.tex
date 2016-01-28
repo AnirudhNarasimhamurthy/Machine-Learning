@@ -1,0 +1,62 @@
+\section{Boolean Functions}
+\label{sec:bool_func}
+
+In this problem, you will be asked to write Boolean functions and
+linear threshold functions based on given labeled data.
+
+\begin{enumerate}
+
+\item ~[3 points] Table \ref{t1} shows several data points (the $x$'s)
+  along with corresponding labels ($y$). Write down three different
+  Boolean functions all of which can produce the label $y$ when given
+  the inputs $x$.
+
+  \begin{table}[h]
+    \centering
+    \begin{tabular}{|c|cccc|}
+      \hline
+      $y$  & $x_1$ & $x_2$  & $x_3$  & $x_4$  \\
+      \hline
+      0  &  1    &  0     &  0     &  0     \\
+      0  &  1    &  1     &  0     &  0     \\
+      1  &  1    &  0     &  1     &  1     \\
+      \hline
+    \end{tabular}
+    \caption{Original Table}
+    \label{t1}
+  \end{table}
+
+\item ~[5 points] Next, we expand Table \ref{t1} to Table \ref{t2} by
+  adding more data points. How many errors will each of your functions
+  from the previous questions make on the full data set.
+  
+  \begin{table}[h]
+    \centering
+    \begin{tabular}{|c|cccc|}
+      \hline
+      $y$  & $x_1$ & $x_2$  & $x_3$  & $x_4$  \\
+      \hline
+      0  &  1    &  0     &  0     &  0     \\
+      0  &  1    &  1     &  0     &  0     \\
+      1  &  1    &  0     &  1     &  1     \\
+      0  &  0    &  1     &  0     &  0     \\
+      0  &  0    &  1     &  1     &  0     \\
+      0  &  1    &  1     &  1     &  0     \\
+      1  &  0    &  1     &  1     &  1     \\
+      \hline
+    \end{tabular}
+    \caption{Expanded Table}
+    \label{t2}
+  \end{table}
+ 
+ 
+\item ~[7 points] Write down the linear threshold function for the
+  data in Table \ref{t2}.
+
+\end{enumerate}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "hw2"
+%%% End:

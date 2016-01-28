@@ -1,0 +1,291 @@
+Simple version of Perceptron
+*************
+For r=0.1
+*************
+
+Initial updates:
+
+ Total number of examples on training set is : 1605
+ The number of mistakes/updates made is : 387
+ Accuracy on the training set is : 75.8878504673 %
+
+Accuracy on training set:
+
+ Total number of examples on training set is : 1605
+ The number of mistakes/updates made is : 286
+ Accuracy on the training set is : 82.1806853583 %
+
+
+Accuracy on test set:
+ Total number of examples on test set is : 30956
+ The number of mistakes/updates made is : 5543
+ Accuracy on the test set is : 82.0939397855 %
+ 
+ 
+ The bias is: -0.80201757571
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 383
+Accuracy on the training set is : 76.1370716511 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 266
+Accuracy on the training set is : 83.4267912773 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5353
+Accuracy on the test set is : 82.707714175 %
+*****************************************
+
+The bias is: 0.477993928485
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 374
+Accuracy on the training set is : 76.6978193146 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 300
+Accuracy on the training set is : 81.308411215 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 6249
+Accuracy on the test set is : 79.8132833699 %
+*******************************************
+Time taken in seconds is : 3.308297
+
+
+
+
+----------------
+For r=0.01
+---------------
+
+The bias is: -0.654563073123
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 432
+Accuracy on the training set is : 73.0841121495 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 362
+Accuracy on the training set is : 77.445482866 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 6825
+Accuracy on the test set is : 77.9525778524 %
+*******************************************
+
+
+ax value or feature vector size for training is : 119
+Max value or feature vector size is : 123
+The bias is: -0.196443331984
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 496
+Accuracy on the training set is : 69.0965732087 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 380
+Accuracy on the training set is : 76.3239875389 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 7106
+Accuracy on the test set is : 77.0448378343 %
+*******************************************
+Time taken in seconds is : 3.299533
+
+
+
+The bias is: 0.538724693216
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 498
+Accuracy on the training set is : 68.9719626168 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 361
+Accuracy on the training set is : 77.507788162 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 7207
+Accuracy on the test set is : 76.7185682905 %
+*******************************************
+
+
+
+The bias is: -0.931219855041
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 522
+Accuracy on the training set is : 67.476635514 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 397
+Accuracy on the training set is : 75.2647975078 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 7430
+Accuracy on the test set is : 75.9981909807 %
+*******************************************
+Time taken in seconds is : 3.36273
+
+
+
+The bias is: -0.845592956516
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 452
+Accuracy on the training set is : 71.8380062305 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 385
+Accuracy on the training set is : 76.0124610592 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 7242
+Accuracy on the test set is : 76.6055045872 %
+*******************************************
+Time taken in seconds is : 3.340221
+
+
+
+
+-----------------
+r=0.5
+-------------
+
+The bias is: -0.15992502451
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 371
+Accuracy on the training set is : 76.8847352025 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 281
+Accuracy on the training set is : 82.492211838 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5363
+Accuracy on the test set is : 82.6754102597 %
+*******************************************
+Time taken in seconds is : 3.316033
+
+
+The bias is: -0.320859099485
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 378
+Accuracy on the training set is : 76.4485981308 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 264
+Accuracy on the training set is : 83.5514018692 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5431
+Accuracy on the test set is : 82.4557436361 %
+*******************************************
+
+
+
+Max value or feature vector size for training is : 119
+Max value or feature vector size is : 123
+The bias is: 0.655282367695
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 368
+Accuracy on the training set is : 77.0716510903 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 324
+Accuracy on the training set is : 79.8130841121 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 6486
+Accuracy on the test set is : 79.0476805789 %
+
+
+
+
+----------------
+r=1
+---------------
+
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 364
+Accuracy on the training set is : 77.3208722741 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 263
+Accuracy on the training set is : 83.6137071651 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5666
+Accuracy on the test set is : 81.6966016281 %
+
+
+
+The bias is: 0.57509867643
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 375
+Accuracy on the training set is : 76.6355140187 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 294
+Accuracy on the training set is : 81.6822429907 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5522
+Accuracy on the test set is : 82.1617780075 %
+
+
+The bias is: -0.347061877615
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 382
+Accuracy on the training set is : 76.199376947 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 257
+Accuracy on the training set is : 83.9875389408 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5241
+Accuracy on the test set is : 83.0695180256 %
+*******************************************
+
+
+Max value or feature vector size for training is : 119
+Max value or feature vector size is : 123
+The bias is: 0.746203216938
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 375
+Accuracy on the training set is : 76.6355140187 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 288
+Accuracy on the training set is : 82.0560747664 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5488
+Accuracy on the test set is : 82.2716113193 %
+
+
+
+The bias is: 0.976335576323
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes/updates made is : 366
+Accuracy on the training set is : 77.1962616822 %
+*******************************************
+Total number of examples on training set is : 1605
+The number of mistakes made  using the updated weight vector is : 315
+Accuracy on the training set is : 80.3738317757 %
+*******************************************
+Total number of examples on test set is : 30956
+The number of mistakes made using the updated weight vector is : 5726
+Accuracy on the test set is : 81.5027781367 %
+
+

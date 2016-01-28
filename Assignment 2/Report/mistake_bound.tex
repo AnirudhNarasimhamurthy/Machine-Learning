@@ -1,0 +1,89 @@
+\section{Mistake Bound Model of Learning}
+
+Consider an instance space consisting of {\bf integer points} on the
+two dimensional plane $(x_1, x_2)$ with $-128 \leq x_1, x_2 \leq 128$.
+Let $\mathcal C$ be a concept class defined on this instance space.
+Each function $f_r$ in $\mathcal C$ is defined by a radius $r$ (with
+$1 \leq r \leq 128$) as follows:
+
+\begin{equation}
+f_r(x_1, x_2) = \left\{
+    \begin{array}{rl}
+      +1 & x_1^2 + x_2^2 \leq r^2;\\
+      -1 & \mbox{otherwise}
+    \end{array}
+\right.
+\label{eq:f_r}
+\end{equation}
+
+
+Our goal is to come up with a error-driven algorithm that will learn
+the correct function $f \in \mathcal{C}$ that correctly classifies a
+dataset.
+
+\paragraph{Side notes}
+\begin{enumerate}
+\item Recall that a concept class is the set of functions from which
+  the true target function is drawn and the hypothesis space is the
+  set of functions that the learning algorithm searches over. In this
+  question, both these are the same set.
+\item Assume that there is no noise. That is, assume that the data is
+  separable using the hypothesis class.
+\end{enumerate}
+
+
+\paragraph{Questions}
+
+\begin{enumerate}
+
+
+\item[1.] [5 points] Determine $|\mathcal{C}|$, the size of concept
+  class.
+  
+\item[2.] [5 points] To design an error driven learning algorithm, we
+  should be able to first write down what it means to make a mistake.
+  Suppose our current guess for the function is $f_r$ defined as in
+  Equation \ref{eq:f_r} above. Say we get an input point $(x_1^t,
+  x_2^t)$ along with its label $y^t$. Write down an expression (an
+  equality or an inequality) in terms of $x_1^t$, $x_2^t$, $y^t$ and
+  $r$ that checks whether the current hypothesis $f_r$ has made a
+  mistake.
+
+\item[3.] [10 points] Next, we need to specify how we will update a
+  hypothesis if there is an error. Since $f_r$ is completely defined
+  in terms of $r$, we only need to update $r$. How will you update $r$
+  if there is an error? Consider errors for both positive and negative
+  examples.
+
+\item[4.] [20 points] Use the answers from the previous two steps to
+  write a mistake-driven learning algorithm to learn the function.
+  Please write the algorithm concisely in the form of pseudocode. What
+  is the maximum number of mistakes that this algorithm can make on
+  any dataset?
+
+\item[5.] ({\bf For 6350 students})[15 points total] We have seen the
+  Halving algorithm in class. The Halving algorithm will maintain a
+  set of hypotheses consistent with all the examples seen so far and
+  predict using the most frequent label among this set. Upon making a
+  mistake, the algorithm prune at least half of this set. In this
+  question, you will design and analyze a Halving algorithm for this
+  particular concept space.
+
+  \begin{enumerate}
+  \item[a.] [5 points] The set of hypotheses consistent with all examples
+    seen so far can be defined storing only two integers. How would
+    you do this?
+  \item[b.] [5 points] How would you check if there is an error for an
+    example $(x_1^t, x_2^t)$ that has the label $y^t$?
+  \item[c.] [5 points] Write the full Halving algorithm for this
+    specific concept space. (Do not write the same Halving algorithm
+    we saw in class. You need to tailor it to this problemxo.) What is
+    its mistake bound?
+  \end{enumerate}
+
+\end{enumerate}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "hw2"
+%%% End:
